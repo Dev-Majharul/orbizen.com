@@ -1,75 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>https://orbizen.com/orbizen</loc>
+    <loc>https://orbizen.com/</loc>
     <lastmod>2024-03-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://orbizen.com/orbizen/about</loc>
+    <loc>https://orbizen.com/about.php</loc>
     <lastmod>2024-03-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbizen.com/orbizen/services</loc>
+    <loc>https://orbizen.com/services.php</loc>
     <lastmod>2024-03-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbizen.com/orbizen/blog</loc>
+    <loc>https://orbizen.com/blog.php</loc>
     <lastmod>2024-03-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbizen.com/orbizen/contact</loc>
+    <loc>https://orbizen.com/contact.php</loc>
     <lastmod>2024-03-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://orbizen.com/orbizen/career</loc>
+    <loc>https://orbizen.com/career.php</loc>
     <lastmod>2024-03-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://orbizen.com/orbizen/project</loc>
+    <loc>https://orbizen.com/project.php</loc>
     <lastmod>2024-03-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbizen.com/orbizen/team</loc>
+    <loc>https://orbizen.com/team.php</loc>
     <lastmod>2024-03-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://orbizen.com/orbizen/pricing</loc>
+    <loc>https://orbizen.com/pricing.php</loc>
     <lastmod>2024-03-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbizen.com/orbizen/faq</loc>
+    <loc>https://orbizen.com/faq.php</loc>
     <lastmod>2024-03-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://orbizen.com/orbizen/privacy-policy</loc>
+    <loc>https://orbizen.com/privacy-policy.php</loc>
     <lastmod>2024-03-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://orbizen.com/orbizen/terms</loc>
+    <loc>https://orbizen.com/terms.php</loc>
     <lastmod>2024-03-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://orbizen.com/services-details.php</loc>
+    <lastmod>2024-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://orbizen.com/project-details.php</loc>
+    <lastmod>2024-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://orbizen.com/blog-details.php</loc>
+    <lastmod>2024-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset> 

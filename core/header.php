@@ -31,7 +31,7 @@ $description = $PAGE_DESCRIPTION;
 <head>
   <meta charset="utf-8">
   <title><?php echo $page_title; ?></title>
-  <meta name="description" content="<?php echo $discription; ?>">
+  <meta name="description" content="<?php echo $description; ?>">
   
   <!-- SEO Meta Tags -->
   <meta name="robots" content="index, follow">
@@ -46,12 +46,22 @@ $description = $PAGE_DESCRIPTION;
   <meta name="google-site-verification" content="YOUR-GOOGLE-VERIFICATION-CODE">
   <meta name="msvalidate.01" content="YOUR-BING-VERIFICATION-CODE">
   <meta name="yandex-verification" content="YOUR-YANDEX-VERIFICATION-CODE">
+  
+  <!-- SEO Pagination for Multi-page Content -->
+  <?php if (isset($page_number) && isset($total_pages)): ?>
+    <?php if ($page_number > 1): ?>
+      <link rel="prev" href="https://orbizen.com/<?php echo $current_page; ?>.php?page=<?php echo $page_number - 1; ?>">
+    <?php endif; ?>
+    <?php if ($page_number < $total_pages): ?>
+      <link rel="next" href="https://orbizen.com/<?php echo $current_page; ?>.php?page=<?php echo $page_number + 1; ?>">
+    <?php endif; ?>
+  <?php endif; ?>
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://orbizen.com/">
+  <meta property="og:url" content="https://orbizen.com/<?php echo ($current_page !== 'index') ? $current_page . '.php' : ''; ?>">
   <meta property="og:title" content="<?php echo $page_title; ?>">
-  <meta property="og:description" content="Orbizen Limited delivers innovative software development, web design, and secure SaaS solutions with expertise in blockchain technology and digital security.">
+  <meta property="og:description" content="<?php echo $description; ?>">
   <meta property="og:image" content="https://orbizen.com/images/og-image.png">
   <meta property="og:site_name" content="Orbizen Limited">
   <meta property="og:locale" content="en_US">
@@ -66,9 +76,9 @@ $description = $PAGE_DESCRIPTION;
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="https://orbizen.com/">
+  <meta name="twitter:url" content="https://orbizen.com/<?php echo ($current_page !== 'index') ? $current_page . '.php' : ''; ?>">
   <meta name="twitter:title" content="<?php echo $page_title; ?>">
-  <meta name="twitter:description" content="Orbizen Limited delivers innovative software development, web design, and secure SaaS solutions with expertise in blockchain technology and digital security.">
+  <meta name="twitter:description" content="<?php echo $description; ?>">
   <meta name="twitter:image" content="https://orbizen.com/images/og-image.png">
   <meta name="twitter:creator" content="@OrbizenLimited">
 
@@ -82,7 +92,7 @@ $description = $PAGE_DESCRIPTION;
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
   <!-- Canonical URL -->
-  <link rel="canonical" href="https://orbizen.com/">
+  <link rel="canonical" href="https://orbizen.com/<?php echo ($current_page !== 'index') ? $current_page . '.php' : ''; ?>">
 
   <!-- Performance Optimization -->
   <link rel="preload" href="css/main.css" as="style">
@@ -102,7 +112,7 @@ $description = $PAGE_DESCRIPTION;
         "width": "180",
         "height": "60"
       },
-      "description": "Orbizen Limited delivers innovative software development, web design, and secure SaaS solutions with expertise in blockchain technology and digital security.",
+      "description": "<?php echo $description; ?>",
       "address": {
         "@type": "PostalAddress",
         "addressCountry": "UK"
@@ -130,7 +140,7 @@ $description = $PAGE_DESCRIPTION;
       "image": "https://orbizen.com/images/logo.png",
       "url": "https://orbizen.com",
       "priceRange": "$$",
-      "description": "Orbizen Limited delivers innovative software development, web design, and secure SaaS solutions with expertise in blockchain technology and digital security.",
+      "description": "<?php echo $description; ?>",
       "address": {
         "@type": "PostalAddress",
         "addressCountry": "UK"
@@ -149,7 +159,14 @@ $description = $PAGE_DESCRIPTION;
         "position": 1,
         "name": "Home",
         "item": "https://orbizen.com"
-      }]
+      }<?php if($current_page != 'index'): ?>,
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "<?php echo ucfirst($current_page); ?>",
+        "item": "https://orbizen.com/<?php echo $current_page; ?>.php"
+      }
+      <?php endif; ?>]
     }
   </script>
 

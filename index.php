@@ -948,14 +948,7 @@ get_template('navbar');
         </h2>
 
         <!-- Email Subscription Form -->
-        <form class="max-md:max-w-sm max-w-[570px] mt-8 md:mt-10 flex bg-secondary text-white mx-auto w-full relative">
-          <input type="email" placeholder="your.email@company.com" aria-label="Email address for consultation"
-            class="border-none focus:outline-none bg-transparent text-base block w-full p-5 md:p-7">
-          <button type="submit"
-            class="inline-block bg-primary p-3 md:p-6 uppercase text-secondary max-md:text-xs md:leading-[15.4px] md:tracking-[1.12px] absolute top-3 md:top-2 cursor-pointer right-3 md:right-2">
-            Request Demo
-          </button>
-        </form>
+        <?php get_template('subscription'); ?>
       </div>
     </section>
 

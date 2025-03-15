@@ -1,0 +1,24 @@
+ created a comprehensive pricing page for Orbizen Limited with a modern, clean design that matches the style of your existing pages. The pricing page includes:
+
+1. **Header Section**: With a title and brief description about your transparent pricing approach.
+
+2. **Pricing Toggle**: Allows users to switch between monthly and annual billing options, highlighting potential savings with annual plans.
+
+3. **Three-Tiered Pricing Structure**:
+   - **Starter Plan** ($49/month): For small businesses and startups
+   - **Pro Plan** ($149/month): For growing businesses (highlighted as most popular)
+   - **Enterprise Plan** ($399/month): For large organizations with complex needs
+
+4. **Custom Solutions Section**: Encourages users with specific requirements to book a consultation.
+
+5. **FAQ Section**: Answers common questions about pricing, payment methods, contracts, what's included in services, and refund policy.
+
+6. **CTA Section**: Maintains the same call-to-action design from your other pages.
+
+Each pricing tier includes:
+- Clear pricing information
+- Description of who the plan is best for
+- Comprehensive feature lists with visual checkmarks
+- Clear call-to-action buttons
+
+The design uses responsive layouts and includes animations through the "reveal-me" class that appears in your other pages. You can easily modify the specific pricing amounts, features, and other details to match your actual offerings.

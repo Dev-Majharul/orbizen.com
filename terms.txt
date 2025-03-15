@@ -1,0 +1,61 @@
+
+IMPORTANT: MANUAL UPDATES REQUIRED FOR TERMS & CONDITIONS
+
+Please review and customize the following sections of the Terms & Conditions before publishing:
+
+1. COMPANY ADDRESSES
+   - In section 17 (Contact Information), replace [Your UK Address] with your actual UK business address
+   - In section 17 (Contact Information), replace [Your Bangladesh Address] with your actual Bangladesh business address
+   - Ensure the contact email (legal@orbizen.com) is correct or update it to your preferred legal contact email
+
+2. PAYMENT PROCESSING DETAILS
+   - In section 6 (Payment Processing), verify and update the list of supported payment methods
+   - If you offer region-specific payment methods, consider listing them
+   - If you have specific payment policies (minimum amounts, currencies, etc.), add them here
+
+3. REFUND POLICY
+   - Section 5 mentions a Refund Policy - you should create a separate Refund Policy document
+   - If you don't have a separate Refund Policy, add specific refund terms directly to section 5
+
+4. GOVERNING LAW
+   - Section 13 specifies UK law as the primary governing law
+   - If you prefer a different jurisdiction as the primary governing law, update this section
+   - Verify that the dispute resolution processes align with your company's legal approach
+
+5. LIABILITY LIMITATIONS
+   - Section 11 limits liability to the greater of the amount paid in the last 6 months or £100
+   - Consider whether these limits are appropriate for your business model and services
+   - Consult with a legal professional to ensure these limits comply with applicable laws
+
+6. SUBSCRIPTION DETAILS
+   - If you offer different billing cycles than monthly, quarterly, or annual, update section 5
+   - If you have specific requirements for subscription cancellations, add those details
+
+7. LEGAL REVIEW
+   - Have these Terms & Conditions reviewed by legal counsel familiar with:
+     a) UK business and contract law
+     b) Bangladesh business and contract law
+     c) Digital services and software licensing
+     d) Payment processing regulations
+     e) International business regulations
+
+8. ADDITIONAL POLICIES
+   - Consider creating and linking to these additional policies:
+     a) Privacy Policy (already implemented)
+     b) Cookie Policy (mentioned but not yet implemented)
+     c) Acceptable Use Policy (for more detailed usage guidelines)
+     d) Service Level Agreement (for Enterprise clients)
+     e) Refund Policy (as mentioned above)
+
+9. EFFECTIVE DATE
+   - The terms automatically use the current date using PHP
+   - If you want to set a specific effective date, replace <?php echo date('F d, Y'); ?> with your chosen date
+
+10. LOCALIZATION
+    - If operating in multiple countries with different languages, consider providing translated versions
+    - Specify which language version is legally binding in case of discrepancies
+```
+
+The updated Terms and Conditions now include comprehensive sections covering all essential legal aspects for a global software company with operations in both the UK and Bangladesh, including digital payment processing. The document is structured to be legally sound while remaining understandable to users.
+
+The separate text file provides you with a checklist of items that require your personal attention before publishing the Terms and Conditions page. These customizations will ensure the document accurately reflects your specific business operations, addresses, and policies.
