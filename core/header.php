@@ -59,7 +59,6 @@ $description = $PAGE_DESCRIPTION;
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
-  <!-- Removed .php extension from URLs - Update URL structure here if needed -->
   <meta property="og:url" content="https://orbizen.com/<?php echo ($current_page !== 'index') ? $current_page : ''; ?>">
   <meta property="og:title" content="<?php echo $page_title; ?>">
   <meta property="og:description" content="<?php echo $description; ?>">
@@ -70,7 +69,7 @@ $description = $PAGE_DESCRIPTION;
   <!-- LinkedIn-Specific Meta Tags -->
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Orbizen Limited">
+  <meta property="og:image:alt" content="<?php echo $page_title; ?>">
     
   <!-- WhatsApp Meta Tags -->
   <meta property="og:image:type" content="image/png">
@@ -165,7 +164,7 @@ $description = $PAGE_DESCRIPTION;
         "@type": "ListItem",
         "position": 2,
         "name": "<?php echo ucfirst($current_page); ?>",
-        "item": "https://orbizen.com/<?php echo $current_page; ?>"
+        "item": "https://orbizen.com/<?php echo str_replace('.php', '', $current_page); ?>"
       }
       <?php endif; ?>]
     }
