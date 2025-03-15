@@ -128,30 +128,30 @@ if (!defined('ABSPATH')) {
                 class="block text-white transition-colors duration-300 font-semibold hover:text-primary">Career 02</a>
             </li>
             <li class="mb-4">
-              <a href="career-details.php"
+              <a href="<?php echo get_url('career-details'); ?>"
                 class="block text-white transition-colors duration-300 font-semibold hover:text-primary">Career
                 Details</a>
             </li>
             <li class="mb-4">
-              <a href="team.php"
+              <a href="<?php echo get_url('team'); ?>"
                 class="block text-white transition-colors duration-300 font-semibold hover:text-primary">Team</a>
             </li>
             <li class="mb-4">
-              <a href="team-details.php"
+              <a href="<?php echo get_url('team-details'); ?>"
                 class="block text-white transition-colors duration-300 font-semibold hover:text-primary">Team
                 Details</a>
             </li>
             <li class="mb-4">
-              <a href="changelog.php"
+              <a href="<?php echo get_url('changelog'); ?>"
                 class="block text-white transition-colors duration-300 font-semibold hover:text-primary">Changelog</a>
             </li>
             <li class="mb-4">
-              <a href="password-protected.php"
+              <a href="<?php echo get_url('password-protected'); ?>"
                 class="block text-white transition-colors duration-300 font-semibold hover:text-primary">Password
                 Protected</a>
             </li>
             <li class="mb-4">
-              <a href="404.php"
+              <a href="<?php echo get_url('404'); ?>"
                 class="block text-white transition-colors duration-300 font-semibold hover:text-primary">404</a>
             </li>
           </ul>

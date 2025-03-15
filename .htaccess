@@ -5,24 +5,21 @@ RewriteEngine On
 # RewriteCond %{HTTPS} off
 # RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-# Remove .php extension and redirect
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.php [NC]
-RewriteRule ^ %1 [R=301,L]
+# Handle authorization header
+SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
 
-# Internally add .php extension
+# Remove .php extension
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule ^(.*?)/?$ $1.php [L]
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
-# Handle requests with any extension to .php if exists
-RewriteCond %{REQUEST_FILENAME} !-f
+# Remove trailing slash
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([^/]+)\..*$ $1.php [NC,L]
+RewriteRule ^(.*)/$ /$1 [L,R=301]
 
-# If nothing exists, redirect to index.php
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^ index.php [L]
+# Redirect index.php to root
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+RewriteRule ^index\.php$ / [R=301,L]
 
 # Prevent directory listing
 Options -Indexes

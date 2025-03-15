@@ -1,4 +1,3 @@
-
 <?php
 
 // Prevent direct access to this file
@@ -10,7 +9,7 @@ if (!defined('ABSPATH')) {
 </div>
     <nav class="z-[1000] w-full fixed px-5 sm:px-8 pt-1 sm:pt-5 nav-top">
       <div class="flex justify-between">
-        <a href="index.php">
+        <a href="<?php echo get_url('index'); ?>">
           <img class="max-h-[68px] w-auto inline-block dark:hidden" src="images/logo.png" alt="orbizen">
           <img class="max-h-[68px] w-auto dark:inline-block hidden" src="images/logo-white.png" alt="orbizen">
         </a>
@@ -35,173 +34,173 @@ if (!defined('ABSPATH')) {
     <div
       class="menu-wrapper relative max-w-[300px] sm:max-w-[400px] md:max-w-[600px] lg:max-w-[900px] xl:max-w-[1130px] mx-auto pb-4 flex flex-col gap-8 md:gap-16 md:top-20 z-[99999]">
       <ul class="menu-list">
-        <li class="menu-list-item menu-list-item-anchor active">
+        <li class="menu-list-item menu-list-item-anchor<?php echo active_class('index'); ?>">
           <a href="#"
             class="text-white text-[28px] md:text-[42px] xl:text-[56px] leading-[70px] xl:leading-[90px] menu-list-item-text">Home</a>
           <ul class="menu-list-item-dropdown relative md:absolute top-0 w-full md:w-auto h-fit left-0 md:left-[48%]">
             <li>
-              <a href="index.php"
-                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] active">Homepage
+              <a href="<?php echo get_url('index'); ?>"
+                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px]<?php echo active_class('index'); ?>">Homepage
                 01 -
                 <span class="font-instrument italic text-white">Design Agency</span></a>
             </li>
             <li>
-              <a href="homepage-02.php"
-                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Homepage
+              <a href="<?php echo get_url('homepage-02'); ?>"
+                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px]<?php echo active_class('homepage-02'); ?>">Homepage
                 02 -
                 <span class="font-instrument italic text-white">Digital Solutions Agency</span></a>
             </li>
             <li>
-              <a href="homepage-03.php"
-                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Homepage
+              <a href="<?php echo get_url('homepage-03'); ?>"
+                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px]<?php echo active_class('homepage-03'); ?>">Homepage
                 03 -
                 <span class="font-instrument italic text-white">Portfolio</span></a>
             </li>
             <li>
-              <a href="homepage-04.php"
-                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Homepage
+              <a href="<?php echo get_url('homepage-04'); ?>"
+                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px]<?php echo active_class('homepage-04'); ?>">Homepage
                 04 -
                 <span class="font-instrument italic text-white">Photography Studio</span></a>
             </li>
 
             <li>
-              <a href="homepage-05.php"
-                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Homepage
+              <a href="<?php echo get_url('homepage-05'); ?>"
+                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px]<?php echo active_class('homepage-05'); ?>">Homepage
                 05 -
                 <span class="font-instrument italic text-white">SEO Agency</span></a>
             </li>
             <li>
-              <a href="homepage-06.php"
-                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Homepage
+              <a href="<?php echo get_url('homepage-06'); ?>"
+                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px]<?php echo active_class('homepage-06'); ?>">Homepage
                 06 -
                 <span class="font-instrument italic text-white">
                   Creative Agency</span></a>
             </li>
             <li>
-              <a href="homepage-07.php"
-                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Homepage
+              <a href="<?php echo get_url('homepage-07'); ?>"
+                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px]<?php echo active_class('homepage-07'); ?>">Homepage
                 07 -
                 <span class="font-instrument italic text-white">Design Studio</span></a>
             </li>
             <li>
-              <a href="homepage-08.php"
-                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Homepage
+              <a href="<?php echo get_url('homepage-08'); ?>"
+                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px]<?php echo active_class('homepage-08'); ?>">Homepage
                 08 -
                 <span class="font-instrument italic text-white">Business Solutions</span></a>
             </li>
             <li>
-              <a href="homepage-09.php"
-                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Homepage
+              <a href="<?php echo get_url('homepage-09'); ?>"
+                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px]<?php echo active_class('homepage-09'); ?>">Homepage
                 09 -
                 <span class="font-instrument italic text-white">Personal Branding
                 </span></a>
             </li>
             <li>
-              <a href="homepage-10.php"
-                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Homepage
+              <a href="<?php echo get_url('homepage-10'); ?>"
+                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px]<?php echo active_class('homepage-10'); ?>">Homepage
                 10 -
                 <span class="font-instrument italic text-white">Full-Service Agency</span></a>
             </li>
           </ul>
         </li>
-        <li class="menu-list-item menu-list-item-anchor ">
+        <li class="menu-list-item menu-list-item-anchor<?php echo active_class('about'); echo active_class('about-02'); ?>">
           <a href="#"
             class="text-white text-[28px] md:text-[42px] xl:text-[56px] leading-[70px] xl:leading-[90px] menu-list-item-text">About</a>
           <ul class="menu-list-item-dropdown relative md:absolute top-0 w-full md:w-auto h-fit left-0 md:left-[48%]">
             <li>
-              <a href="about.php"
-                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">About
+              <a href="<?php echo get_url('about'); ?>"
+                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px]<?php echo active_class('about'); ?>">About
               </a>
             </li>
             <li>
-              <a href="about-02.php"
-                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">About
+              <a href="<?php echo get_url('about-02'); ?>"
+                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px]<?php echo active_class('about-02'); ?>">About
                 02</a>
             </li>
           </ul>
         </li>
-        <li class="menu-list-item menu-list-item-anchor w-full ">
+        <li class="menu-list-item menu-list-item-anchor w-full<?php echo active_class('services'); echo active_class('services-details'); ?>">
           <a href="#"
             class="text-white text-[28px] md:text-[42px] xl:text-[56px] leading-[70px] xl:leading-[90px] menu-list-item-text">Services</a>
           <ul class="menu-list-item-dropdown relative md:absolute top-0 w-full md:w-auto h-fit left-0 md:left-[48%]">
             <li>
-              <a href="services.php"
-                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Services
+              <a href="<?php echo get_url('services'); ?>"
+                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px]<?php echo active_class('services'); ?>">Services
               </a>
             </li>
             <li>
-              <a href="services-details.php"
-                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Services
+              <a href="<?php echo get_url('services-details'); ?>"
+                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px]<?php echo active_class('services-details'); ?>">Services
                 Details
               </a>
             </li>
           </ul>
         </li>
-        <li class="menu-list-item menu-list-item-anchor w-full ">
+        <li class="menu-list-item menu-list-item-anchor w-full<?php echo active_class('blog'); echo active_class('blog-02'); echo active_class('blog-details'); ?>">
           <a href="#"
             class="text-white text-[28px] md:text-[42px] xl:text-[56px] leading-[70px] xl:leading-[90px] menu-list-item-text">Blog</a>
           <ul class="menu-list-item-dropdown relative md:absolute top-0 w-full md:w-auto h-fit left-0 md:left-[48%]">
             <li>
-              <a href="blog.php"
-                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Blog
+              <a href="<?php echo get_url('blog'); ?>"
+                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px]<?php echo active_class('blog'); ?>">Blog
               </a>
             </li>
             <li>
-              <a href="blog-02.php"
-                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Blog
+              <a href="<?php echo get_url('blog-02'); ?>"
+                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px]<?php echo active_class('blog-02'); ?>">Blog
                 02
               </a>
             </li>
             <li>
-              <a href="blog-details.php"
-                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Blog
+              <a href="<?php echo get_url('blog-details'); ?>"
+                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px]<?php echo active_class('blog-details'); ?>">Blog
                 Details
               </a>
             </li>
           </ul>
         </li>
-        <li class="menu-list-item menu-list-item-anchor w-full ">
+        <li class="menu-list-item menu-list-item-anchor w-full<?php echo active_class('project'); echo active_class('project-02'); echo active_class('project-03'); echo active_class('project-details'); echo active_class('project-details-02'); ?>">
           <a href="#"
             class="text-white text-[28px] md:text-[42px] xl:text-[56px] leading-[70px] xl:leading-[90px] menu-list-item-text">Projects</a>
           <ul class="menu-list-item-dropdown relative md:absolute top-0 w-full md:w-auto h-fit left-0 md:left-[48%]">
             <li>
-              <a href="project.php"
-                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Project
+              <a href="<?php echo get_url('project'); ?>"
+                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px]<?php echo active_class('project'); ?>">Project
               </a>
             </li>
             <li>
-              <a href="project-02.php"
-                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Project
+              <a href="<?php echo get_url('project-02'); ?>"
+                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px]<?php echo active_class('project-02'); ?>">Project
                 02
               </a>
             </li>
             <li>
-              <a href="project-03.php"
-                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Project
+              <a href="<?php echo get_url('project-03'); ?>"
+                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px]<?php echo active_class('project-03'); ?>">Project
                 03
               </a>
             </li>
             <li>
-              <a href="project-details.php"
-                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Project
+              <a href="<?php echo get_url('project-details'); ?>"
+                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px]<?php echo active_class('project-details'); ?>">Project
                 Details
               </a>
             </li>
             <li>
-              <a href="project-details-02.php"
-                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Project
+              <a href="<?php echo get_url('project-details-02'); ?>"
+                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px]<?php echo active_class('project-details-02'); ?>">Project
                 Details 02
               </a>
             </li>
           </ul>
         </li>
-        <li class="menu-list-item menu-list-item-anchor w-full ">
+        <li class="menu-list-item menu-list-item-anchor w-full<?php echo active_class('contact'); ?>">
           <a href="#"
             class="text-white text-[28px] md:text-[42px] xl:text-[56px] leading-[70px] xl:leading-[90px] menu-list-item-text">Contact</a>
           <ul class="menu-list-item-dropdown relative md:absolute top-0 w-full md:w-auto h-fit left-0 md:left-[48%]">
             <li>
-              <a href="contact.php"
-                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Contact
+              <a href="<?php echo get_url('contact'); ?>"
+                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px]<?php echo active_class('contact'); ?>">Contact
               </a>
             </li>
             <li>
@@ -418,7 +417,7 @@ if (!defined('ABSPATH')) {
       <path
         fill-rule="evenodd"
         clip-rule="evenodd"
-        d="M7.75 1V0.25H6.25V1V1.25V2H7.75V1.25V1ZM7 9C8.10457 9 9 8.10457 9 7C9 5.89543 8.10457 5 7 5C5.89543 5 5 5.89543 5 7C5 8.10457 5.89543 9 7 9ZM7 10.5C8.933 10.5 10.5 8.933 10.5 7C10.5 5.067 8.933 3.5 7 3.5C5.067 3.5 3.5 5.067 3.5 7C3.5 8.933 5.067 10.5 7 10.5ZM7.75 12V12.75V13V13.75H6.25V13V12.75V12H7.75ZM12 6.25H12.75H13H13.75V7.75H13H12.75H12V6.25ZM1 6.25H0.25V7.75H1H1.25H2V6.25H1.25H1ZM10.0052 2.93414L10.5355 2.40381L10.7123 2.22703L11.2426 1.6967L12.3033 2.75736L11.773 3.28769L11.5962 3.46447L11.0659 3.9948L10.0052 2.93414ZM2.22703 10.7123L1.6967 11.2426L2.75736 12.3033L3.28769 11.773L3.46447 11.5962L3.9948 11.0659L2.93414 10.0052L2.40381 10.5355L2.22703 10.7123ZM2.93414 3.9948L2.40381 3.46447L2.22703 3.28769L1.6967 2.75736L2.75736 1.6967L3.28769 2.22703L3.46447 2.40381L3.9948 2.93414L2.93414 3.9948ZM10.7123 11.773L11.2426 12.3033L12.3033 11.2426L11.773 10.7123L11.5962 10.5355L11.0659 10.0052L10.0052 11.0659L10.5355 11.5962L10.7123 11.773Z"
+        d="M7.75 1V0.25H6.25V1V1.25V2H7.75V1.25V1ZM7 9C8.10457 9 9 8.10457 9 7C9 5.89543 8.10457 5 7 5C5.89543 5 5 5.89543 5 7C5 8.10457 5.89543 9 7 9ZM7 10.5C8.933 10.5 10.5 8.933 10.5 7C10.5 5.067 8.933 3.5 7 3.5C5.067 3.5 3.5 5.067 3.5 7C3.5 8.933 5.067 10.5 7 10.5ZM7.75 12V12.75V13V13.75H6.25V13V12.75V12H7.75ZM12 6.25H12.75H13H13.75V7.75H13H12.75H12V6.25H1.25H1ZM10.0052 2.93414L10.5355 2.40381L10.7123 2.22703L11.2426 1.6967L12.3033 2.75736L11.773 3.28769L11.5962 3.46447L11.0659 3.9948L10.0052 2.93414ZM2.22703 10.7123L1.6967 11.2426L2.75736 12.3033L3.28769 11.773L3.46447 11.5962L3.9948 11.0659L2.93414 10.0052L2.40381 10.5355L2.22703 10.7123ZM2.93414 3.9948L2.40381 3.46447L2.22703 3.28769L1.6967 2.75736L2.75736 1.6967L3.28769 2.22703L3.46447 2.40381L3.9948 2.93414L2.93414 3.9948ZM10.7123 11.773L11.2426 12.3033L12.3033 11.2426L11.773 10.7123L11.5962 10.5355L11.0659 10.0052L10.0052 11.0659L10.5355 11.5962L10.7123 11.773Z"
         fill="#000"
         transform="translate(1.25, 1.25)"
       ></path>

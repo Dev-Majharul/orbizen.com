@@ -50,19 +50,19 @@ $description = $PAGE_DESCRIPTION;
   <!-- SEO Pagination for Multi-page Content -->
   <?php if (isset($page_number) && isset($total_pages)): ?>
     <?php if ($page_number > 1): ?>
-      <link rel="prev" href="https://orbizen.com/<?php echo $current_page; ?>?page=<?php echo $page_number - 1; ?>">
+      <link rel="prev" href="<?php echo get_url($current_page, ['page' => $page_number - 1]); ?>">
     <?php endif; ?>
     <?php if ($page_number < $total_pages): ?>
-      <link rel="next" href="https://orbizen.com/<?php echo $current_page; ?>?page=<?php echo $page_number + 1; ?>">
+      <link rel="next" href="<?php echo get_url($current_page, ['page' => $page_number + 1]); ?>">
     <?php endif; ?>
   <?php endif; ?>
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://orbizen.com/<?php echo ($current_page !== 'index') ? $current_page : ''; ?>">
+  <meta property="og:url" content="<?php echo get_url(($current_page !== 'index') ? $current_page : ''); ?>">
   <meta property="og:title" content="<?php echo $page_title; ?>">
   <meta property="og:description" content="<?php echo $description; ?>">
-  <meta property="og:image" content="https://orbizen.com/images/og-image.png">
+  <meta property="og:image" content="<?php echo get_url(''); ?>/images/og-image.png">
   <meta property="og:site_name" content="Orbizen Limited">
   <meta property="og:locale" content="en_US">
 
@@ -76,10 +76,10 @@ $description = $PAGE_DESCRIPTION;
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="https://orbizen.com/<?php echo ($current_page !== 'index') ? $current_page : ''; ?>">
+  <meta name="twitter:url" content="<?php echo get_url(($current_page !== 'index') ? $current_page : ''); ?>">
   <meta name="twitter:title" content="<?php echo $page_title; ?>">
   <meta name="twitter:description" content="<?php echo $description; ?>">
-  <meta name="twitter:image" content="https://orbizen.com/images/og-image.png">
+  <meta name="twitter:image" content="<?php echo get_url(''); ?>/images/og-image.png">
   <meta name="twitter:creator" content="@OrbizenLimited">
 
   <!-- Pinterest -->
@@ -92,7 +92,7 @@ $description = $PAGE_DESCRIPTION;
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
   <!-- Canonical URL -->
-  <link rel="canonical" href="https://orbizen.com/<?php echo ($current_page !== 'index') ? $current_page : ''; ?>">
+  <link rel="canonical" href="<?php echo get_url(($current_page !== 'index') ? $current_page : ''); ?>">
 
   <!-- Performance Optimization -->
   <link rel="preload" href="css/main.css" as="style">
@@ -105,10 +105,10 @@ $description = $PAGE_DESCRIPTION;
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "Orbizen Limited",
-      "url": "https://orbizen.com",
+      "url": "<?php echo get_url(''); ?>",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://orbizen.com/images/logo.png",
+        "url": "<?php echo get_url(''); ?>/images/logo.png",
         "width": "180",
         "height": "60"
       },
@@ -137,8 +137,8 @@ $description = $PAGE_DESCRIPTION;
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       "name": "Orbizen Limited",
-      "image": "https://orbizen.com/images/logo.png",
-      "url": "https://orbizen.com",
+      "image": "<?php echo get_url(''); ?>/images/logo.png",
+      "url": "<?php echo get_url(''); ?>",
       "priceRange": "$$",
       "description": "<?php echo $description; ?>",
       "address": {
@@ -158,13 +158,13 @@ $description = $PAGE_DESCRIPTION;
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://orbizen.com"
+        "item": "<?php echo get_url(''); ?>"
       }<?php if($current_page != 'index'): ?>,
       {
         "@type": "ListItem",
         "position": 2,
         "name": "<?php echo ucfirst($current_page); ?>",
-        "item": "https://orbizen.com/<?php echo str_replace('.php', '', $current_page); ?>"
+        "item": "<?php echo get_url($current_page); ?>"
       }
       <?php endif; ?>]
     }

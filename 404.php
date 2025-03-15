@@ -83,7 +83,7 @@ get_template('header');
       </h2>
 
       <!-- Back to Homepage Button -->
-      <a href="index.htm" class="rv-button rv-button-primary">
+      <a href="index" class="rv-button rv-button-primary">
         <div class="rv-button-top !text-center">
           <span>Back to Homepage</span>
         </div>
