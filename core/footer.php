@@ -181,6 +181,39 @@ if (!defined('ABSPATH')) {
   <script src="js/lib/headroom.min.js"></script>
   <script src="js/lib/vanila-marquee.min.js"></script>
   <script src="js/script.js"></script>
+
+  <!-- Footer scripts -->
+  <script src="js/main.js"></script>
+  
+  <?php
+  // Start session if not already started
+  if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+  }
+  
+  // Handle exit preview request
+  if (isset($_GET['exit_preview']) && $_GET['exit_preview'] == '1') {
+    unset($_SESSION['og_preview_access']);
+    // Redirect to the same page without query parameters
+    $redirect_url = strtok($_SERVER['REQUEST_URI'], '?');
+    header("Location: $redirect_url");
+    exit;
+  }
+  
+  // OG Preview tool access control
+  // Show OG Preview tool only when the secret token is provided in URL
+  $og_preview_token = 'samir212004'; // Change this to your own secret token
+  $user_token = isset($_GET['preview_token']) ? $_GET['preview_token'] : '';
+  
+  if ($user_token === $og_preview_token) {
+    $_SESSION['og_preview_access'] = true;
+  }
+  
+  // Show preview if token is valid or session exists
+  if ($user_token === $og_preview_token || (isset($_SESSION['og_preview_access']) && $_SESSION['og_preview_access'] === true)) {
+    include ABSPATH . '/core/og-preview.php';
+  }
+  ?>
 </body>
 
 </html>

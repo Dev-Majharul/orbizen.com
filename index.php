@@ -8,7 +8,7 @@ require_once ABSPATH . '/core/function.php';
 $PAGE_TITLE = 'Orbizen Limited - Innovative Software Development & Digital Solutions';
 $PAGE_DESCRIPTION = 'Orbizen Limited delivers innovative software development, web design, and secure SaaS solutions with expertise in blockchain technology and digital security.';
 
-
+$PAGE_AUTHOR = 'Orbizen Limited';
 
 get_template('header');
 get_template('navbar');
@@ -20,10 +20,10 @@ get_template('navbar');
    Hero Section with Gradient
 ======================================-->
     <section class="pt-[137px] md:pt-[160px] xl:pt-[180px] pb-20 md:pb-[100px] relative overflow-hidden">
-      <!-- Gradient Background Wrapper -->
+      <!-- Hero Gradient Background Wrapper -->
       <div id="hero-gradient-wrapper" class="absolute w-full h-full top-0 left-0 -z-10 blur-[35px] md:blur-[60px]">
-        <img src="images/hero-gradient-background.png" alt="Orbizen Software Solutions Background" id="hero-gradient"
-          class="absolute left-1/2 top-1/2 -translate-x-1/2 max-md:-translate-y-[60%] md:-translate-y-1/2">
+        <img src="images/placeholder.jpg" data-src="images/hero-gradient-background.png" alt="Orbizen Software Solutions Background" id="hero-gradient"
+          class="lazy absolute left-1/2 top-1/2 -translate-x-1/2 max-md:-translate-y-[60%] md:-translate-y-1/2">
       </div>
 
       <!-- Main Content Container -->

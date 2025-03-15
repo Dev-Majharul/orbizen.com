@@ -50,16 +50,17 @@ $description = $PAGE_DESCRIPTION;
   <!-- SEO Pagination for Multi-page Content -->
   <?php if (isset($page_number) && isset($total_pages)): ?>
     <?php if ($page_number > 1): ?>
-      <link rel="prev" href="https://orbizen.com/<?php echo $current_page; ?>.php?page=<?php echo $page_number - 1; ?>">
+      <link rel="prev" href="https://orbizen.com/<?php echo $current_page; ?>?page=<?php echo $page_number - 1; ?>">
     <?php endif; ?>
     <?php if ($page_number < $total_pages): ?>
-      <link rel="next" href="https://orbizen.com/<?php echo $current_page; ?>.php?page=<?php echo $page_number + 1; ?>">
+      <link rel="next" href="https://orbizen.com/<?php echo $current_page; ?>?page=<?php echo $page_number + 1; ?>">
     <?php endif; ?>
   <?php endif; ?>
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://orbizen.com/<?php echo ($current_page !== 'index') ? $current_page . '.php' : ''; ?>">
+  <!-- Removed .php extension from URLs - Update URL structure here if needed -->
+  <meta property="og:url" content="https://orbizen.com/<?php echo ($current_page !== 'index') ? $current_page : ''; ?>">
   <meta property="og:title" content="<?php echo $page_title; ?>">
   <meta property="og:description" content="<?php echo $description; ?>">
   <meta property="og:image" content="https://orbizen.com/images/og-image.png">
@@ -69,14 +70,14 @@ $description = $PAGE_DESCRIPTION;
   <!-- LinkedIn-Specific Meta Tags -->
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Orbizen Limited - Innovative Software Development & Digital Security">
+  <meta property="og:image:alt" content="Orbizen Limited">
     
   <!-- WhatsApp Meta Tags -->
   <meta property="og:image:type" content="image/png">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="https://orbizen.com/<?php echo ($current_page !== 'index') ? $current_page . '.php' : ''; ?>">
+  <meta name="twitter:url" content="https://orbizen.com/<?php echo ($current_page !== 'index') ? $current_page : ''; ?>">
   <meta name="twitter:title" content="<?php echo $page_title; ?>">
   <meta name="twitter:description" content="<?php echo $description; ?>">
   <meta name="twitter:image" content="https://orbizen.com/images/og-image.png">
@@ -92,7 +93,7 @@ $description = $PAGE_DESCRIPTION;
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
   <!-- Canonical URL -->
-  <link rel="canonical" href="https://orbizen.com/<?php echo ($current_page !== 'index') ? $current_page . '.php' : ''; ?>">
+  <link rel="canonical" href="https://orbizen.com/<?php echo ($current_page !== 'index') ? $current_page : ''; ?>">
 
   <!-- Performance Optimization -->
   <link rel="preload" href="css/main.css" as="style">
@@ -164,7 +165,7 @@ $description = $PAGE_DESCRIPTION;
         "@type": "ListItem",
         "position": 2,
         "name": "<?php echo ucfirst($current_page); ?>",
-        "item": "https://orbizen.com/<?php echo $current_page; ?>.php"
+        "item": "https://orbizen.com/<?php echo $current_page; ?>"
       }
       <?php endif; ?>]
     }
@@ -172,6 +173,7 @@ $description = $PAGE_DESCRIPTION;
 
   <!-- Stylesheets -->
   <link href="css/main.css" rel="stylesheet">
+  <link href="css/lazyload.css" rel="stylesheet">
 
   <!-- Web App Manifest -->
   <link rel="manifest" href="images/site.webmanifest">
@@ -188,6 +190,9 @@ $description = $PAGE_DESCRIPTION;
   
   <!-- Preconnect -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- Lazy Loading Script -->
+  <script src="js/lazyload.js" defer></script>
 </head>
 
 <body>

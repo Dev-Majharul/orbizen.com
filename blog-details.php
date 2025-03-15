@@ -5,13 +5,26 @@ define('ABSPATH', dirname(__FILE__));
 require_once ABSPATH . '/core/function.php';
 
 // Page Title and Description
-$PAGE_TITLE = 'Changing Face of Digital Advertising';
-$PAGE_DESCRIPTION = 'Orbizen Limited delivers innovative software development, web design, and secure SaaS solutions with expertise in blockchain technology and digital security.';
+$PAGE_TITLE = 'Building Web and Mobile Applications That Your Users Will Love | Orbizen Limited';
+$PAGE_DESCRIPTION = 'Discover how Orbizen creates user-centered web and mobile applications through strategic planning, iterative design, and thorough user testing.';
 
-
+// Blog Schema Data
+$article_title = $PAGE_TITLE;
+$article_description = $PAGE_DESCRIPTION;
+$article_published_date = "2024-03-10T10:00:00+00:00";
+$article_modified_date = "2024-03-15T14:30:00+00:00";
+$article_author = "John Smith";
+$article_categories = ["Web Development", "Mobile Apps", "User Experience"];
+$article_image = "https://orbizen.com/images/blog/web-mobile-apps.jpg";
+$article_image_width = "1200";
+$article_image_height = "630";
+$article_word_count = "1250";
 
 get_template('header');
 get_template('navbar');
+
+// Include blog schema
+get_template('blog-schema');
 ?>
 
 <main class="lg:mb-[600px] relative z-10 bg-backgroundBody dark:bg-dark">
@@ -357,7 +370,7 @@ get_template('navbar');
         <div class="reveal-me">
           <h3 id="why-choose">Building the information architecture</h3>
           <p>
-            It sounds like you’re working on translating research findings into
+            It sounds like you're working on translating research findings into
             a wireframe. Are you focusing on a specific type of project or
             platform, like a website, app, or something else? And what kind of
             research findings are you incorporating?
@@ -369,7 +382,7 @@ get_template('navbar');
           </h3>
           <p>
             Got it. Testing with real users is crucial for refining your design
-            and ensuring it meets their needs. Here’s a basic outline of how you
+            and ensuring it meets their needs. Here's a basic outline of how you
             might incorporate your research findings into wireframes and test
             them:
           </p>
@@ -668,6 +681,6 @@ get_template('navbar');
 
 </main>
 
-<?php
-  get_template('footer');
-  ?>
+<?php include ABSPATH . '/core/social-share.php'; ?>
+
+<?php get_template('footer'); ?>

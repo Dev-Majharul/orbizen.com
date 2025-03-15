@@ -19,9 +19,21 @@ Performance Improvements:
 Created a lazy loading script (lazyload.js) and CSS (lazyload.css) for images
 Implemented placeholder images with smooth loading transitions
 Added aspect ratio containers to prevent layout shifts during page load
+
+
+
 SEO Testing Tools:
 Created an admin-only Open Graph preview tool (og-preview.php)
 Added SEO issue detection and reporting for page titles, descriptions, etc.
+How to Access the OG Preview Tool:
+Simply append the following to any URL on your site:
+For example:
+   https://orbizen.com?preview_token=token-given-by-developer
+The tool will continue to be visible across all pages you visit during that browser session.
+To exit preview mode, click the green "Exit Preview" button in the tool, or close your browser.
+
+
+
 How to Implement These Changes:
 Include the social share buttons on your content pages by adding:
 Add structured data to blog posts by including:
@@ -29,6 +41,7 @@ Add the image lazy loading by including these in your header:
 Convert images to use lazy loading by changing image tags:
 For testing SEO and social media previews, add at the bottom of pages:
 For maximum SEO benefit, I also recommend:
+
 Create dedicated Open Graph images (1200×630px) for better social sharing
 Apply for Google Search Console and add the verification code to your header
 Set up Google Analytics 4 for tracking website performance

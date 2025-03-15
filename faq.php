@@ -5,13 +5,38 @@ define('ABSPATH', dirname(__FILE__));
 require_once ABSPATH . '/core/function.php';
 
 // Page Title and Description
-$PAGE_TITLE = 'Orbizen Limited ';
-$PAGE_DESCRIPTION = 'Orbizen Limited delivers innovative software development, web design, and secure SaaS solutions with expertise in blockchain technology and digital security.';
+$PAGE_TITLE = 'Frequently Asked Questions | Orbizen Limited';
+$PAGE_DESCRIPTION = 'Find answers to commonly asked questions about Orbizen Limited services, pricing, support, and more.';
 
-
+// Define FAQs for schema markup
+$faqs = [
+  [
+    'question' => 'What services does Orbizen Limited offer?',
+    'answer' => 'Orbizen Limited offers a range of digital services including custom software development, web design and development, mobile app development, SaaS solutions, and digital security services.'
+  ],
+  [
+    'question' => 'How do I request a quote for my project?',
+    'answer' => 'You can request a quote by filling out our contact form, emailing us at info@orbizen.com, or calling our sales team directly. We typically respond to quote requests within 24-48 hours.'
+  ],
+  [
+    'question' => 'What is your typical development process?',
+    'answer' => 'Our development process includes discovery, planning, design, development, testing, and deployment phases. We follow agile methodologies and provide regular updates throughout the project lifecycle.'
+  ],
+  [
+    'question' => 'Do you offer maintenance and support after project completion?',
+    'answer' => 'Yes, we offer various maintenance and support packages to keep your software running smoothly after launch. These can include regular updates, security patches, feature enhancements, and technical support.'
+  ],
+  [
+    'question' => 'What technologies does Orbizen work with?',
+    'answer' => 'We work with a wide range of technologies including JavaScript (React, Angular, Vue.js), PHP, Python, Node.js, mobile platforms (iOS, Android), and blockchain technologies.'
+  ]
+];
 
 get_template('header');
 get_template('navbar');
+
+// Include FAQ schema
+include ABSPATH . '/core/faq-schema.php';
 ?>
 
 

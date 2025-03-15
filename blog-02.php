@@ -8,7 +8,7 @@ require_once ABSPATH . '/core/function.php';
 $PAGE_TITLE = 'Orbizen Limited - Blog';
 $PAGE_DESCRIPTION = 'Orbizen Limited delivers innovative software development, web design, and secure SaaS solutions with expertise in blockchain technology and digital security.';
 
-
+$PAGE_AUTHOR = 'Orbizen Limited';
 
 get_template('header');
 get_template('navbar');

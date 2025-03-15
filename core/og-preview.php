@@ -91,7 +91,10 @@ $og_image = isset($social_meta['image']) ? $social_meta['image'] : '';
 <div id="og-preview-tool" style="position: fixed; bottom: 20px; right: 20px; background-color: #fff; border: 1px solid #ddd; box-shadow: 0 0 10px rgba(0,0,0,0.1); padding: 15px; z-index: 9999; width: 320px; max-height: 500px; overflow-y: auto; border-radius: 8px;">
     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
         <h3 style="margin: 0; color: #333; font-size: 16px;">SEO & Social Media Preview</h3>
-        <button id="close-og-preview" style="background: none; border: none; cursor: pointer; color: #777;">×</button>
+        <div>
+            <a href="?exit_preview=1" style="background: #4CAF50; color: white; font-size: 11px; padding: 3px 8px; border-radius: 3px; text-decoration: none; margin-right: 8px;">Exit Preview</a>
+            <button id="close-og-preview" style="background: none; border: none; cursor: pointer; color: #777;">×</button>
+        </div>
     </div>
     
     <div style="margin-bottom: 15px;">
