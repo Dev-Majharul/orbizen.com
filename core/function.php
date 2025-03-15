@@ -2,7 +2,8 @@
 
 // Prevent direct access to this file
 if (!defined('ABSPATH')) {
-    exit('Direct script access denied.');
+    define('ABSPATH', dirname(__FILE__));
+    exit('Direct script access denied.'); 
 }
 
 /**

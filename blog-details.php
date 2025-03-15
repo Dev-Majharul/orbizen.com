@@ -492,7 +492,7 @@ get_template('blog-schema');
         >
           SEPTEMBER 10, 2024
         </p>
-        <a href="blog-details.php">
+        <a href="blog-details">
           <div class="blog-title mb-9">
             <h3
               class="text[25px] md:text-3xl lg:text-4xl lg:leading-[1.2] lg:tracking-[-0.72px]"
@@ -502,7 +502,7 @@ get_template('blog-schema');
           </div>
         </a>
 
-        <a href="blog-details.php" class="rv-button rv-button-primary2">
+        <a href="blog-details" class="rv-button rv-button-primary2">
           <div class="rv-button-top !text-center flex items-center">
             <span class="pr-1">3 minute read</span>
             <img
@@ -539,7 +539,7 @@ get_template('blog-schema');
         >
           SEPTEMBER 10, 2024
         </p>
-        <a href="blog-details.php">
+        <a href="blog-details">
           <div class="blog-title mb-9">
             <h3
               class="text[25px] md:text-3xl lg:text-4xl lg:leading-[1.2] lg:tracking-[-0.72px]"
@@ -549,7 +549,7 @@ get_template('blog-schema');
           </div>
         </a>
 
-        <a href="blog-details.php" class="rv-button rv-button-primary2">
+        <a href="blog-details" class="rv-button rv-button-primary2">
           <div class="rv-button-top !text-center flex items-center">
             <span class="pr-1">3 minute read</span>
             <img
@@ -587,7 +587,7 @@ get_template('blog-schema');
         >
           SEPTEMBER 10, 2024
         </p>
-        <a href="blog-details.php">
+        <a href="blog-details">
           <div class="blog-title mb-9">
             <h3
               class="text[25px] md:text-3xl lg:text-4xl lg:leading-[1.2] lg:tracking-[-0.72px]"
@@ -597,7 +597,7 @@ get_template('blog-schema');
           </div>
         </a>
 
-        <a href="blog-details.php" class="rv-button rv-button-primary2">
+        <a href="blog-details" class="rv-button rv-button-primary2">
           <div class="rv-button-top !text-center flex items-center">
             <span class="pr-1">3 minute read</span>
             <img
@@ -681,6 +681,6 @@ get_template('blog-schema');
 
 </main>
 
-<?php include ABSPATH . '/core/social-share.php'; ?>
+<?php include ABSPATH . '/core/social-share'; ?>
 
 <?php get_template('footer'); ?>
