@@ -36,6 +36,10 @@ $description = $PAGE_DESCRIPTION;
   <!-- SEO Meta Tags -->
   <meta name="robots" content="index, follow">
   <meta name="keywords" content="Orbizen Limited, software solutions, web design, UI/UX design, website development, web application development, SaaS, password manager, secure software, digital security, Web3 technology, blockchain, personal server, SME, cloud security, next-gen technology, IT security">
+
+  <!-- Google Site Verification -->
+  <meta name="google-site-verification" content="4FEKqutFi4clEoows2XCoxfVBwXXshpQMdSniSXV8Gc" />
+
   <meta name="author" content="Orbizen Limited">
   <meta name="copyright" content="Orbizen Limited">
   <meta name="language" content="English">
