@@ -50,7 +50,7 @@ get_template('navbar');
           <ul class="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-6 list-none">
             <!-- Primary CTA Button -->
             <li class="block md:inline-block w-[90%] mx-auto md:ml-auto md:mr-0 md:w-auto">
-              <a href="contact.php" class="rv-button rv-button-secondary block md:inline-block">
+              <a href="contact" class="rv-button rv-button-secondary block md:inline-block">
                 <div class="rv-button-top">
                   <span>Get a Free Consultation</span>
                 </div>
@@ -61,7 +61,7 @@ get_template('navbar');
             </li>
             <!-- Secondary CTA Button -->
             <li class="block md:inline-block w-[90%] mx-auto md:mr-auto md:ml-0 md:w-auto">
-              <a href="services.php" class="rv-button rv-button-white block md:inline-block">
+              <a href="services" class="rv-button rv-button-white block md:inline-block">
                 <div class="rv-button-top">
                   <span>Explore Services</span>
                 </div>
@@ -75,54 +75,7 @@ get_template('navbar');
       </div>
     </section>
 
-    <!-- Additional Service Highlights Section -->
-    <section class="py-16 md:py-20 relative">
-      <div class="container">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
-          <!-- Service 1 -->
-          <div class="service-card p-6 border border-gray-100 dark:border-gray-800 rounded-lg transition-all hover:shadow-lg">
-            <div class="mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-              </svg>
-            </div>
-            <h3 class="text-xl font-semibold mb-2">Custom Software Development</h3>
-            <p class="text-gray-600 dark:text-gray-300">Tailored software solutions designed to address your specific business challenges and streamline operations.</p>
-          </div>
-          <!-- Service 2 -->
-          <div class="service-card p-6 border border-gray-100 dark:border-gray-800 rounded-lg transition-all hover:shadow-lg">
-            <div class="mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
-              </svg>
-            </div>
-            <h3 class="text-xl font-semibold mb-2">Mobile App Development</h3>
-            <p class="text-gray-600 dark:text-gray-300">Native and cross-platform mobile applications built for iOS and Android with seamless user experiences.</p>
-          </div>
-          <!-- Service 3 -->
-          <div class="service-card p-6 border border-gray-100 dark:border-gray-800 rounded-lg transition-all hover:shadow-lg">
-            <div class="mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
-              </svg>
-            </div>
-            <h3 class="text-xl font-semibold mb-2">Web Application Development</h3>
-            <p class="text-gray-600 dark:text-gray-300">Responsive, high-performance web applications using modern frameworks and cloud architecture.</p>
-          </div>
-          <!-- Service 4 -->
-          <div class="service-card p-6 border border-gray-100 dark:border-gray-800 rounded-lg transition-all hover:shadow-lg">
-            <div class="mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-              </svg>
-            </div>
-            <h3 class="text-xl font-semibold mb-2">Cybersecurity Solutions</h3>
-            <p class="text-gray-600 dark:text-gray-300">Enterprise-grade security implementations including encryption, secure authentication, and vulnerability assessments.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
+  
 
     <!--=====================================
    Promo Video Section
@@ -296,7 +249,7 @@ get_template('navbar');
             </h2>
           </div>
           <div class="flex-1 max-w-lg">
-            <p class="text-appear max-md:text-justify dark:text-colorText text-appear-2">
+            <p class=" max-md:text-justify dark:text-colorText text-appear-2">
               Orbizen develops enterprise software solutions that drive innovation and efficiency. From custom development to cloud migration, we deliver technology that powers your business growth.
             </p>
           </div>

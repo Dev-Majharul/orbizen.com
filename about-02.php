@@ -5,7 +5,7 @@ define('ABSPATH', dirname(__FILE__));
 require_once ABSPATH . '/core/function.php';
 
 // Page Title and Description
-$PAGE_TITLE = 'Orbizen Limited - Innovative Software Development & Digital Solutions';
+$PAGE_TITLE = 'Orbizen Limited ';
 $PAGE_DESCRIPTION = 'Orbizen Limited delivers innovative software development, web design, and secure SaaS solutions with expertise in blockchain technology and digital security.';
 
 

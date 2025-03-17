@@ -66,7 +66,7 @@ $description = $PAGE_DESCRIPTION;
   <meta property="og:url" content="<?php echo get_url(($current_page !== 'index') ? $current_page : ''); ?>">
   <meta property="og:title" content="<?php echo $page_title; ?>">
   <meta property="og:description" content="<?php echo $description; ?>">
-  <meta property="og:image" content="<?php echo get_url(''); ?>/images/og-image.png">
+  <meta property="og:image" content="<?php echo core_url( 'images/og-preview.png'); ?>">
   <meta property="og:site_name" content="Orbizen Limited">
   <meta property="og:locale" content="en_US">
 
@@ -83,7 +83,7 @@ $description = $PAGE_DESCRIPTION;
   <meta name="twitter:url" content="<?php echo get_url(($current_page !== 'index') ? $current_page : ''); ?>">
   <meta name="twitter:title" content="<?php echo $page_title; ?>">
   <meta name="twitter:description" content="<?php echo $description; ?>">
-  <meta name="twitter:image" content="<?php echo get_url(''); ?>/images/og-image.png">
+  <meta name="twitter:image" content="<?php echo core_url( 'images/og-preview.png'); ?>">
   <meta name="twitter:creator" content="@OrbizenLimited">
 
   <!-- Pinterest -->

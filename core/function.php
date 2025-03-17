@@ -60,6 +60,17 @@ function get_url($page, $params = []) {
     return $base_url . $path . $query;
 }
 
+function core_url($page, $params = []) {
+    // Base URL
+    $base_url = get_site_url();
+    
+    
+    return $base_url;
+}
+
+
+
+
 /**
  * Check if current page matches the given page
  * 
