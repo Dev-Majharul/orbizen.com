@@ -27,7 +27,7 @@ get_template('navbar');
   >
     <!-- Gradient Background Image: Positioned centrally with responsive sizing -->
     <img
-      src="images/hero-gradient-background.png"
+      src="images/hero-gradient-background.webp"
       alt="hero-gradient-background"
       id="hero-gradient"
       class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
@@ -59,7 +59,7 @@ get_template('navbar');
       <div class="max-w-[370px] reveal-me underline-hover-effect group">
         <figure class="overflow-hidden">
           <img
-            src="images/blog-img/blog-img-1.png"
+            src="images/blog-img/blog-img-1.webp"
             class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
             alt="Blog Images"
           />
@@ -106,7 +106,7 @@ get_template('navbar');
       <div class="max-w-[370px] reveal-me underline-hover-effect group">
         <figure class="overflow-hidden">
           <img
-            src="images/blog-img/blog-img-2.png"
+            src="images/blog-img/blog-img-2.webp"
             alt="Blog Images"
             class="max-h-[389px] h-full w-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
           />
@@ -153,7 +153,7 @@ get_template('navbar');
       <div class="max-w-[370px] reveal-me underline-hover-effect group">
         <figure class="overflow-hidden">
           <img
-            src="images/blog-img/blog-img-3.png"
+            src="images/blog-img/blog-img-3.webp"
             class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
             alt="Blog Images"
           />
@@ -246,7 +246,7 @@ get_template('navbar');
 
         <figure class="overflow-hidden w-full lg:min-w-[464px]">
           <img
-            src="images/blog-img/blog-img-4.png"
+            src="images/blog-img/blog-img-4.webp"
             class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
             alt="Blog Images"
           />
@@ -297,7 +297,7 @@ get_template('navbar');
         </div>
         <figure class="overflow-hidden w-full lg:min-w-[464px]">
           <img
-            src="images/blog-img/blog-img-5.png"
+            src="images/blog-img/blog-img-5.webp"
             alt="Blog Images"
             class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
           />
@@ -348,7 +348,7 @@ get_template('navbar');
         </div>
         <figure class="overflow-hidden w-full lg:min-w-[464px]">
           <img
-            src="images/blog-img/blog-img-7.png"
+            src="images/blog-img/blog-img-7.webp"
             alt="Blog Images"
             class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
           />
@@ -398,7 +398,7 @@ get_template('navbar');
         </div>
         <figure class="overflow-hidden w-full lg:min-w-[464px]">
           <img
-            src="images/blog-img/blog-img-6.png"
+            src="images/blog-img/blog-img-6.webp"
             alt="Blog Images"
             class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
           />
@@ -520,13 +520,13 @@ get_template('navbar');
       >
         <div class="cta-inline-slider">
           <div class="slide">
-            <img src="images/agent/01.jpg" alt="Slide 1" />
+            <img src="images/agent/01.webp" alt="Slide 1" />
           </div>
           <div class="slide">
-            <img src="images/agent/02.jpg" alt="Slide 2" />
+            <img src="images/agent/02.webp" alt="Slide 2" />
           </div>
           <div class="slide">
-            <img src="images/agent/03.jpg" alt="Slide 3" />
+            <img src="images/agent/03.webp" alt="Slide 3" />
           </div>
         </div>
       </div>

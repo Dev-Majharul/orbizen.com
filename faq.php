@@ -50,7 +50,7 @@ include ABSPATH . '/core/faq-schema.php';
   <div
     class="absolute scale-y-[3.5] sm:scale-y-[2.2] md:scale-y-[1.6] xl:scale-y-[1.4] scale-x-[1.7] left-1/2 top-1/2 max-md:-translate-y-[45%] md:-translate-y-1/2 -translate-x-1/2 -z-30"
   >
-    <img src="images/gradient-bg.png" alt="gradient-bg" />
+    <img src="images/gradient-bg.webp" alt="gradient-bg" />
   </div>
   <div class="container">
     <!-- FAQ Section Title -->
@@ -204,13 +204,13 @@ include ABSPATH . '/core/faq-schema.php';
       >
         <div class="cta-inline-slider">
           <div class="slide">
-            <img src="images/agent/01.jpg" alt="Slide 1" />
+            <img src="images/agent/01.webp" alt="Slide 1" />
           </div>
           <div class="slide">
-            <img src="images/agent/02.jpg" alt="Slide 2" />
+            <img src="images/agent/02.webp" alt="Slide 2" />
           </div>
           <div class="slide">
-            <img src="images/agent/03.jpg" alt="Slide 3" />
+            <img src="images/agent/03.webp" alt="Slide 3" />
           </div>
         </div>
       </div>

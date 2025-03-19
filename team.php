@@ -23,7 +23,7 @@ get_template('navbar');
   <!-- Background Gradient Wrapper: Creates a blurred, responsive background effect -->
   <div id="hero-gradient-wrapper" class="absolute w-1/2 md:w-[40%] h-1/2 md:h-[40%] top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 -z-10 blur-[60px] md:scale-90 lg:scale-75">
     <!-- Gradient Background Image: Positioned centrally with responsive sizing -->
-    <img src="images/hero-gradient-background.png" alt="hero-gradient-background" id="hero-gradient" class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+    <img src="images/hero-gradient-background.webp" alt="hero-gradient-background" id="hero-gradient" class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
   </div>
 
   <!-- Container for page content with reveal animation -->
@@ -54,7 +54,7 @@ get_template('navbar');
     <!-- Main Profile Card -->
     <div class="our-team-details flex flex-col lg:flex-row gap-10 gap-x-[30px] max-md:justify-center max-md:items-center border dark:border-dark p-5 lg:p-10 bg-backgroundBody dark:bg-dark">
       <figure class="max-lg:w-full lg:max-w-[330px] lg:max-h-[350px]">
-        <img src="images/home-ai/team/ai-team-1.png" alt="Team Leader" class="w-full object-cover">
+        <img src="images/home-ai/team/ai-team-1.webp" alt="Team Leader" class="w-full object-cover">
       </figure>
 
       <!-- Profile Details Container -->
@@ -103,7 +103,7 @@ get_template('navbar');
     <div class="flex max-lg:flex-wrap gap-6 justify-center mt-[30px]">
       <div class="tab-member max-w-[370px] flex-auto border dark:border-dark p-5 flex items-center h-auto gap-5 transitionTimingFunction tab-active" data-member="marvin">
         <figure>
-          <img src="images/home-ai/team/ai-team-1.png" alt="Marvin McKinney" class="w-[130px] h-[130px] object-cover">
+          <img src="images/home-ai/team/ai-team-1.webp" alt="Marvin McKinney" class="w-[130px] h-[130px] object-cover">
         </figure>
         <div>
           <h3 class="text-2xl leading-[1.2] tracking-[-0.72px] mb-3">
@@ -114,7 +114,7 @@ get_template('navbar');
       </div>
       <div class="tab-member border dark:border-dark max-w-[370px] flex-auto p-5 flex items-center h-auto gap-5 transitionTimingFunction" data-member="marvin">
         <figure>
-          <img src="images/home-ai/team/ai-team-2.png" alt="Marvin McKinney" class="w-[130px] h-[130px] object-cover">
+          <img src="images/home-ai/team/ai-team-2.webp" alt="Marvin McKinney" class="w-[130px] h-[130px] object-cover">
         </figure>
         <div>
           <h3 class="text-2xl leading-[1.2] tracking-[-0.72px] mb-3">
@@ -125,7 +125,7 @@ get_template('navbar');
       </div>
       <div class="tab-member max-w-[370px] flex-auto border dark:border-dark p-5 flex items-center h-auto gap-5 transitionTimingFunction" data-member="marvin">
         <figure>
-          <img src="images/home-ai/team/ai-team-3.png" alt="Marvin McKinney" class="w-[130px] h-[130px] object-cover">
+          <img src="images/home-ai/team/ai-team-3.webp" alt="Marvin McKinney" class="w-[130px] h-[130px] object-cover">
         </figure>
         <div>
           <h3 class="text-2xl leading-[1.2] tracking-[-0.72px] mb-3">
@@ -150,13 +150,13 @@ get_template('navbar');
       <div class="cta-slider-container max-sm:block sm:inline-block max-sm:mb-5 translate-y-2 sm:translate-y-[20px] max-sm:mt-2.5">
         <div class="cta-inline-slider">
           <div class="slide">
-            <img src="images/agent/01.jpg" alt="Slide 1">
+            <img src="images/agent/01.webp" alt="Slide 1">
           </div>
           <div class="slide">
-            <img src="images/agent/02.jpg" alt="Slide 2">
+            <img src="images/agent/02.webp" alt="Slide 2">
           </div>
           <div class="slide">
-            <img src="images/agent/03.jpg" alt="Slide 3">
+            <img src="images/agent/03.webp" alt="Slide 3">
           </div>
         </div>
       </div>

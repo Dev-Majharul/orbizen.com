@@ -5,6 +5,21 @@ RewriteEngine On
 # RewriteCond %{HTTPS} off
 # RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
+# ------------------------------
+# URL Redirect Rules
+# ------------------------------
+
+# Redirect orbizen.com/finorah.com/ to finorah.com
+RewriteCond %{HTTP_HOST} ^(www\.)?orbizen\.com$ [NC]
+RewriteCond %{REQUEST_URI} ^/finorah\.com(/.*)?$ [NC]
+RewriteRule ^ https://finorah.com%1 [R=301,L]
+
+# Redirect orbizen.com/subdomains to actual subdomains
+RewriteCond %{HTTP_HOST} ^(www\.)?orbizen\.com$ [NC]
+RewriteCond %{REQUEST_URI} ^/(publishing|drive|hr|ai|vpn|browse)\.orbizen\.com(/.*)?$ [NC]
+RewriteRule ^ https://%1.orbizen.com%2 [R=301,L]
+
+
 # Handle authorization header
 SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
 
@@ -42,10 +57,10 @@ AddDefaultCharset UTF-8
     Header set X-Content-Type-Options "nosniff"
     
     # Protect against clickjacking
-    Header set X-Frame-Options "SAMEORIGIN"
+    Header always set X-Frame-Options "SAMEORIGIN"
     
     # Enable HSTS (Force HTTPS)
-    Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
     
     # Referrer Policy
     Header set Referrer-Policy "strict-origin-when-cross-origin"
@@ -54,6 +69,11 @@ AddDefaultCharset UTF-8
     Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https:;"
 </IfModule>
 
+
+
+# ------------------------------
+# Enable CORS (Specific Domains)
+# ------------------------------
 # Enable CORS with specific origins
 <IfModule mod_headers.c>
     SetEnvIf Origin "https?://(localhost|orbizen\.com)$" ALLOWED_ORIGIN=$0
@@ -63,6 +83,10 @@ AddDefaultCharset UTF-8
     Header set Access-Control-Allow-Credentials "true"
 </IfModule>
 
+
+# ------------------------------
+# Cache Control Rules
+# 
 # Caching Rules
 <IfModule mod_expires.c>
     ExpiresActive On
@@ -85,6 +109,9 @@ AddDefaultCharset UTF-8
     ExpiresByType application/x-shockwave-flash "access plus 1 month"
 </IfModule>
 
+# ------------------------------
+# GZIP Compression
+# ------------------------------
 # Compress text, html, javascript, css, xml:
 <IfModule mod_deflate.c>
     AddOutputFilterByType DEFLATE text/plain
@@ -101,6 +128,12 @@ AddDefaultCharset UTF-8
     AddOutputFilterByType DEFLATE application/x-font-woff
     AddOutputFilterByType DEFLATE application/x-font-woff2
 </IfModule>
+
+
+
+# ------------------------------
+# Restrict Access to Sensitive Files
+# ------------------------------
 
 # Prevent access to sensitive files
 <FilesMatch "^\.">

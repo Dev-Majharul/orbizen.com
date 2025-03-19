@@ -20,7 +20,7 @@ get_template('navbar');
 <section class="pt-[118px] md:pt-[143px] lg:pt-[110px] pb-16 md:pb-20 lg:pb-[95px] xl:pb-[120px]">
   <div class="relative w-full reveal-me">
     <figure class="hero-img-container">
-      <img src="images/hero-img/hero-v10.png" alt="hero-img" class="w-[98%] mx-auto min-h-fit scale-hero-img">
+      <img src="images/hero-img/hero-v10.webp" alt="hero-img" class="w-[98%] mx-auto min-h-fit scale-hero-img">
     </figure>
     <div class="container">
       <h1 class="text-center text-backgroundBody font-medium md:font-semibold absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 max-sm:py-4">
@@ -39,8 +39,8 @@ get_template('navbar');
       <!-- Logo Circle -->
       <div class="relative w-[168px] h-[168px] bg-secondary dark:bg-white rounded-[50%] flex items-center justify-center mx-auto">
         <figure>
-          <img src="images/icons/text-circle-logo.png" alt="text-circle-logo" class="inline dark:hidden">
-          <img src="images/icons/text-circle-dark-logo.png" alt="text-circle-logo" class="hidden dark:inline">
+          <img src="images/icons/text-circle-logo.webp" alt="text-circle-logo" class="inline dark:hidden">
+          <img src="images/icons/text-circle-dark-logo.webp" alt="text-circle-logo" class="hidden dark:inline">
         </figure>
         <div class="text">
           <p>Building Brands,and Creating Impact</p>
@@ -134,7 +134,7 @@ get_template('navbar');
       <div class="reveal-me border dark:border-dark px-5 pt-5 pb-7 underline-hover-effect group">
         <a href="project-details.php">
           <figure class="overflow-hidden">
-            <img src="images/blog-img/blog-img-13.png" class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3" alt="Blog Images">
+            <img src="images/blog-img/blog-img-13.webp" class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3" alt="Blog Images">
           </figure>
         </a>
         <div class="mt-[26px] mb-2.5 flex justify-between items-center">
@@ -156,7 +156,7 @@ get_template('navbar');
       <div class="reveal-me border dark:border-dark px-5 pt-5 pb-7 underline-hover-effect group">
         <a href="project-details.php">
           <figure class="overflow-hidden">
-            <img src="images/blog-img/blog-img-14.png" class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3" alt="Blog Images">
+            <img src="images/blog-img/blog-img-14.webp" class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3" alt="Blog Images">
           </figure>
         </a>
         <div class="mt-[26px] mb-2.5 flex justify-between items-center">
@@ -178,7 +178,7 @@ get_template('navbar');
       <div class="reveal-me border dark:border-dark px-5 pt-5 pb-7 underline-hover-effect group">
         <a href="project-details.php">
           <figure class="overflow-hidden">
-            <img src="images/blog-img/blog-img-15.png" class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3" alt="Blog Images">
+            <img src="images/blog-img/blog-img-15.webp" class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3" alt="Blog Images">
           </figure>
         </a>
         <div class="mt-[26px] mb-2.5 flex justify-between items-center">
@@ -200,7 +200,7 @@ get_template('navbar');
       <div class="reveal-me border dark:border-dark px-5 pt-5 pb-7 underline-hover-effect group">
         <a href="project-details.php">
           <figure class="overflow-hidden">
-            <img src="images/blog-img/blog-img-16.png" class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3" alt="Blog Images">
+            <img src="images/blog-img/blog-img-16.webp" class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3" alt="Blog Images">
           </figure>
         </a>
         <div class="mt-[26px] mb-2.5 flex justify-between items-center">
@@ -652,7 +652,7 @@ get_template('navbar');
 
         <figure class="overflow-hidden max-w-[370px]">
           <a href="blog-details.php">
-            <img src="images/blog-img/blogV3-img-4.png" class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3" alt="Blog Images">
+            <img src="images/blog-img/blogV3-img-4.webp" class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3" alt="Blog Images">
           </a>
         </figure>
       </div>
@@ -684,7 +684,7 @@ get_template('navbar');
 
         <figure class="overflow-hidden max-w-[370px]">
           <a href="blog-details.php">
-            <img src="images/blog-img/blogV3-img-5.png" class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3" alt="Blog Images">
+            <img src="images/blog-img/blogV3-img-5.webp" class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3" alt="Blog Images">
           </a>
         </figure>
       </div>
@@ -704,13 +704,13 @@ get_template('navbar');
       <div class="cta-slider-container max-sm:block sm:inline-block max-sm:mb-5 translate-y-2 sm:translate-y-[20px] max-sm:mt-2.5">
         <div class="cta-inline-slider">
           <div class="slide">
-            <img src="images/agent/01.jpg" alt="Slide 1">
+            <img src="images/agent/01.webp" alt="Slide 1">
           </div>
           <div class="slide">
-            <img src="images/agent/02.jpg" alt="Slide 2">
+            <img src="images/agent/02.webp" alt="Slide 2">
           </div>
           <div class="slide">
-            <img src="images/agent/03.jpg" alt="Slide 3">
+            <img src="images/agent/03.webp" alt="Slide 3">
           </div>
         </div>
       </div>

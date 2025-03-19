@@ -42,7 +42,7 @@ get_template('navbar');
 
     <!-- Hero Image -->
     <figure>
-      <img src="images/home-5/hero-img.png" alt="Hero Img">
+      <img src="images/home-5/hero-img.webp" alt="Hero Img">
     </figure>
   </div>
 </section>
@@ -158,7 +158,7 @@ get_template('navbar');
         <!-- Case Study Image -->
         <figure class="max-w-[870px] -z-30 overflow-hidden">
           <a href="project-details.php" class="block">
-            <img src="images/home-5/case-study-1.png" class="w-full h-full group-hover:scale-125 group-hover:rotate-3 transition-all duration-500" alt="case-studies Img">
+            <img src="images/home-5/case-study-1.webp" class="w-full h-full group-hover:scale-125 group-hover:rotate-3 transition-all duration-500" alt="case-studies Img">
           </a>
         </figure>
 
@@ -199,7 +199,7 @@ get_template('navbar');
         <!-- Case Study Image -->
         <figure class="max-w-[870px] -z-30 overflow-hidden">
           <a href="project-details.php" class="block">
-            <img src="images/home-5/case-study-2.png" class="w-full h-full group-hover:scale-125 group-hover:rotate-3 transition-all duration-500" alt="case-studies Img">
+            <img src="images/home-5/case-study-2.webp" class="w-full h-full group-hover:scale-125 group-hover:rotate-3 transition-all duration-500" alt="case-studies Img">
           </a>
         </figure>
 
@@ -322,7 +322,7 @@ get_template('navbar');
           very first meeting."
         </p>
         <div class="flex items-center gap-4 mt-[29px]">
-          <img src="images/avatar/review-1.png" alt="Review Author">
+          <img src="images/avatar/review-1.webp" alt="Review Author">
           <div>
             <h3 class="text-xl leading-[1.2] tracking-wide font-medium">
               Cindy Ibanez
@@ -341,7 +341,7 @@ get_template('navbar');
           very first meeting."
         </p>
         <div class="flex items-center gap-4 mt-[29px]">
-          <img src="images/avatar/review-2.png" alt="Review Author">
+          <img src="images/avatar/review-2.webp" alt="Review Author">
           <div>
             <h3 class="text-xl leading-[1.2] tracking-wide font-medium">
               Darrell Steward
@@ -360,7 +360,7 @@ get_template('navbar');
           very first meeting."
         </p>
         <div class="flex items-center gap-4 mt-[29px]">
-          <img src="images/avatar/review-3.png" alt="Review Author">
+          <img src="images/avatar/review-3.webp" alt="Review Author">
           <div>
             <h3 class="text-xl leading-[1.2] tracking-wide font-medium">
               Wade Warren
@@ -379,7 +379,7 @@ get_template('navbar');
           very first meeting."
         </p>
         <div class="flex items-center gap-4 mt-[29px]">
-          <img src="images/avatar/review-4.png" alt="Review Author">
+          <img src="images/avatar/review-4.webp" alt="Review Author">
           <div>
             <h3 class="text-xl leading-[1.2] tracking-wide font-medium">
               Arlene McCoy
@@ -398,7 +398,7 @@ get_template('navbar');
           very first meeting."
         </p>
         <div class="flex items-center gap-4 mt-[29px]">
-          <img src="images/avatar/review-7.png" alt="Review Author">
+          <img src="images/avatar/review-7.webp" alt="Review Author">
           <div>
             <h3 class="text-xl leading-[1.2] tracking-wide font-medium">
               Marvin McKinney
@@ -417,7 +417,7 @@ get_template('navbar');
           very first meeting."
         </p>
         <div class="flex items-center gap-4 mt-[29px]">
-          <img src="images/avatar/review-6.png" alt="Review Author">
+          <img src="images/avatar/review-6.webp" alt="Review Author">
           <div>
             <h3 class="text-xl leading-[1.2] tracking-wide font-medium">
               Jacob Jones
@@ -436,7 +436,7 @@ get_template('navbar');
           very first meeting."
         </p>
         <div class="flex items-center gap-4 mt-[29px]">
-          <img src="images/avatar/review-5.png" alt="Review Author">
+          <img src="images/avatar/review-5.webp" alt="Review Author">
           <div>
             <h3 class="text-xl leading-[1.2] tracking-wide font-medium">
               Jacob Jones
@@ -477,7 +477,7 @@ get_template('navbar');
       <div class="reveal-me max-w-[370px] group">
         <a href="blog-details.php">
           <figure class="overflow-hidden">
-            <img src="images/blog-img/blog-img-8.png" class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3" alt="AI Design Trends">
+            <img src="images/blog-img/blog-img-8.webp" class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3" alt="AI Design Trends">
           </figure>
           <p class="text-sm mb-3.5 md:pb-5 text-secondary dark:text-white leading-[1.1] tracking-[1.12px] uppercase font-poppins font-normal mt-5 md:mt-[30px]">
             March 15, 2024
@@ -494,7 +494,7 @@ get_template('navbar');
       <div class="reveal-me max-w-[370px] group">
         <a href="blog-details.php">
           <figure class="overflow-hidden">
-            <img src="images/blog-img/blog-img-12.png" class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3" alt="UX Research Methods">
+            <img src="images/blog-img/blog-img-12.webp" class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3" alt="UX Research Methods">
           </figure>
           <p class="text-sm mb-3.5 md:pb-5 text-secondary dark:text-white leading-[1.1] tracking-[1.12px] uppercase font-poppins font-normal mt-5 md:mt-[30px]">
             March 21, 2024
@@ -512,7 +512,7 @@ get_template('navbar');
       <div class="reveal-me max-w-[370px] group">
         <a href="blog-details.php">
           <figure class="overflow-hidden">
-            <img src="images/blog-img/blog-img-10.png" class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3" alt="Web Performance">
+            <img src="images/blog-img/blog-img-10.webp" class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3" alt="Web Performance">
           </figure>
           <p class="text-sm mb-3.5 md:pb-5 text-secondary dark:text-white leading-[1.1] tracking-[1.12px] uppercase font-poppins font-normal mt-5 md:mt-[30px]">
             March 28, 2024
@@ -540,13 +540,13 @@ get_template('navbar');
       <div class="cta-slider-container max-sm:block sm:inline-block max-sm:mb-5 translate-y-2 sm:translate-y-[20px] max-sm:mt-2.5">
         <div class="cta-inline-slider">
           <div class="slide">
-            <img src="images/agent/01.jpg" alt="Slide 1">
+            <img src="images/agent/01.webp" alt="Slide 1">
           </div>
           <div class="slide">
-            <img src="images/agent/02.jpg" alt="Slide 2">
+            <img src="images/agent/02.webp" alt="Slide 2">
           </div>
           <div class="slide">
-            <img src="images/agent/03.jpg" alt="Slide 3">
+            <img src="images/agent/03.webp" alt="Slide 3">
           </div>
         </div>
       </div>

@@ -2,7 +2,7 @@
 
 // Prevent direct access to this file
 if (!defined('ABSPATH')) {
-    exit('Direct script access denied.');
+  exit('Direct script access denied.');
 }
 $current_page = basename($_SERVER['PHP_SELF'], '.php');
 $page_title = 'Orbizen Limited';
@@ -10,18 +10,18 @@ $page_title = 'Orbizen Limited';
 // Set dynamic page titles
 // Use page title defined in individual pages if set
 if (isset($PAGE_TITLE)) {
-    $page_title = $PAGE_TITLE;
+  $page_title = $PAGE_TITLE;
 } else {
-    // Default page title with current page name
-    $page_title = 'Orbizen Limited';
-    if ($current_page != 'index') {
-        $page_title .= ' | ' . ucfirst($current_page);
-    }
+  // Default page title with current page name
+  $page_title = 'Orbizen Limited';
+  if ($current_page != 'index') {
+    $page_title .= ' | ' . ucfirst($current_page);
+  }
 }
 
 // Use description defined in individual pages if set
 if (!isset($PAGE_DESCRIPTION)) {
-    $PAGE_DESCRIPTION = 'Orbizen Limited delivers innovative software development, web design, and secure SaaS solutions with expertise in blockchain technology and digital security.';
+  $PAGE_DESCRIPTION = 'Orbizen Limited delivers innovative software development, web design, and secure SaaS solutions with expertise in blockchain technology and digital security.';
 }
 $description = $PAGE_DESCRIPTION;
 ?>
@@ -32,10 +32,11 @@ $description = $PAGE_DESCRIPTION;
   <meta charset="utf-8">
   <title><?php echo $page_title; ?></title>
   <meta name="description" content="<?php echo $description; ?>">
-  
+
   <!-- SEO Meta Tags -->
   <meta name="robots" content="index, follow">
-  <meta name="keywords" content="Orbizen Limited, software solutions, web design, UI/UX design, website development, web application development, SaaS, password manager, secure software, digital security, Web3 technology, blockchain, personal server, SME, cloud security, next-gen technology, IT security">
+  <meta name="keywords"
+    content="Orbizen Limited, software solutions, web design, UI/UX design, website development, web application development, SaaS, password manager, secure software, digital security, Web3 technology, blockchain, personal server, SME, cloud security, next-gen technology, IT security">
 
   <!-- Google Site Verification -->
   <meta name="google-site-verification" content="4FEKqutFi4clEoows2XCoxfVBwXXshpQMdSniSXV8Gc" />
@@ -50,7 +51,7 @@ $description = $PAGE_DESCRIPTION;
   <meta name="google-site-verification" content="YOUR-GOOGLE-VERIFICATION-CODE">
   <meta name="msvalidate.01" content="YOUR-BING-VERIFICATION-CODE">
   <meta name="yandex-verification" content="YOUR-YANDEX-VERIFICATION-CODE">
-  
+
   <!-- SEO Pagination for Multi-page Content -->
   <?php if (isset($page_number) && isset($total_pages)): ?>
     <?php if ($page_number > 1): ?>
@@ -66,7 +67,7 @@ $description = $PAGE_DESCRIPTION;
   <meta property="og:url" content="<?php echo get_url(($current_page !== 'index') ? $current_page : ''); ?>">
   <meta property="og:title" content="<?php echo $page_title; ?>">
   <meta property="og:description" content="<?php echo $description; ?>">
-  <meta property="og:image" content="<?php echo core_url( 'images/og-preview.png'); ?>">
+  <meta property="og:image" content="<?php echo core_url('images/og-preview.webp'); ?>">
   <meta property="og:site_name" content="Orbizen Limited">
   <meta property="og:locale" content="en_US">
 
@@ -74,7 +75,7 @@ $description = $PAGE_DESCRIPTION;
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="<?php echo $page_title; ?>">
-    
+
   <!-- WhatsApp Meta Tags -->
   <meta property="og:image:type" content="image/png">
 
@@ -83,7 +84,7 @@ $description = $PAGE_DESCRIPTION;
   <meta name="twitter:url" content="<?php echo get_url(($current_page !== 'index') ? $current_page : ''); ?>">
   <meta name="twitter:title" content="<?php echo $page_title; ?>">
   <meta name="twitter:description" content="<?php echo $description; ?>">
-  <meta name="twitter:image" content="<?php echo core_url( 'images/og-preview.png'); ?>">
+  <meta name="twitter:image" content="<?php echo core_url('images/og-preview.webp'); ?>">
   <meta name="twitter:creator" content="@OrbizenLimited">
 
   <!-- Pinterest -->
@@ -100,9 +101,9 @@ $description = $PAGE_DESCRIPTION;
 
   <!-- Performance Optimization -->
   <link rel="preload" href="css/main.css" as="style">
-  <link rel="preload" href="images/og-image.png" as="image">
+  <link rel="preload" href="images/og-image.webp" as="image">
   <meta http-equiv="x-dns-prefetch-control" content="on">
-  
+
   <!-- Structured Data -->
   <script type="application/ld+json">
     {
@@ -112,7 +113,7 @@ $description = $PAGE_DESCRIPTION;
       "url": "<?php echo get_url(''); ?>",
       "logo": {
         "@type": "ImageObject",
-        "url": "<?php echo get_url(''); ?>/images/logo.png",
+        "url": "<?php echo get_url(''); ?>/images/logo.webp",
         "width": "180",
         "height": "60"
       },
@@ -141,7 +142,7 @@ $description = $PAGE_DESCRIPTION;
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       "name": "Orbizen Limited",
-      "image": "<?php echo get_url(''); ?>/images/logo.png",
+      "image": "<?php echo get_url(''); ?>/images/logo.webp",
       "url": "<?php echo get_url(''); ?>",
       "priceRange": "$$",
       "description": "<?php echo $description; ?>",
@@ -163,13 +164,13 @@ $description = $PAGE_DESCRIPTION;
         "position": 1,
         "name": "Home",
         "item": "<?php echo get_url(''); ?>"
-      }<?php if($current_page != 'index'): ?>,
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "<?php echo ucfirst($current_page); ?>",
-        "item": "<?php echo get_url($current_page); ?>"
-      }
+      }<?php if ($current_page != 'index'): ?>,
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "<?php echo ucfirst($current_page); ?>",
+          "item": "<?php echo get_url($current_page); ?>"
+        }
       <?php endif; ?>]
     }
   </script>
@@ -182,18 +183,18 @@ $description = $PAGE_DESCRIPTION;
   <link rel="manifest" href="images/site.webmanifest">
 
   <!-- Favicons -->
-  <link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="images/favicon-96x96.webp" sizes="96x96">
   <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
   <link rel="shortcut icon" href="images/favicon.ico">
-  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-  
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.webp">
+
   <!-- DNS Prefetch -->
   <link rel="dns-prefetch" href="//fonts.googleapis.com">
   <link rel="dns-prefetch" href="//analytics.google.com">
-  
+
   <!-- Preconnect -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  
+
   <!-- Lazy Loading Script -->
   <script src="js/lazyload.js" defer></script>
 </head>
@@ -293,4 +294,4 @@ $description = $PAGE_DESCRIPTION;
         );
         backdrop-filter: blur(16px);
         -webkit-backdrop-filter: blur(16px);
-      "></div>  
+      "></div>

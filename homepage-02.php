@@ -22,7 +22,7 @@ get_template('navbar');
 <section class="pt-[137px] md:pt-[180px] lg:pt-[150px] pb-14 md:pb-[100px] lg:pb-[120px] relative overflow-hidden">
   <!-- Gradient Background Effect -->
   <div id="hero-gradient-wrapper" class="absolute w-full h-fw-full top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 -z-10 blur-[60px] scale-90">
-    <img src="images/hero-gradient-background.png" alt="hero-gradient-background" id="hero-gradient" class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+    <img src="images/hero-gradient-background.webp" alt="hero-gradient-background" id="hero-gradient" class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
   </div>
 
   <!-- Hero Content -->
@@ -73,8 +73,8 @@ get_template('navbar');
     <!-- Circular Logo Element -->
     <div class="relative w-[168px] h-[168px] bg-secondary dark:bg-white rounded-[50%] flex items-center justify-center mx-auto reveal-me">
       <figure>
-        <img src="images/icons/text-circle-logo.png" alt="text-circle-logo" class="inline dark:hidden">
-        <img src="images/icons/text-circle-dark-logo.png" alt="text-circle-logo" class="hidden dark:inline">
+        <img src="images/icons/text-circle-logo.webp" alt="text-circle-logo" class="inline dark:hidden">
+        <img src="images/icons/text-circle-dark-logo.webp" alt="text-circle-logo" class="hidden dark:inline">
       </figure>
       <div class="text">
         <p>Building Brands,and Creating Impact</p>
@@ -132,7 +132,7 @@ get_template('navbar');
       <a href="project-details-02.php" class="max-md:w-full">
         <div class="flex flex-col md:flex-row items-start md:items-center gap-y-6 gap-x-10 w-full underline-hover-effect">
           <figure class="w-full md:w-[42%] overflow-hidden">
-            <img src="images/services-2/services-1.png" alt="Epicurean Elegance" class="w-full h-full block transition-all duration-500 group-hover:scale-125 group-hover:rotate-3">
+            <img src="images/services-2/services-1.webp" alt="Epicurean Elegance" class="w-full h-full block transition-all duration-500 group-hover:scale-125 group-hover:rotate-3">
           </figure>
 
           <div class="flex-1 md:mt-14">
@@ -160,7 +160,7 @@ get_template('navbar');
       <a href="project-details-02.php" class="w-full">
         <div class="flex flex-col md:flex-row-reverse items-end md:items-center gap-y-6 gap-x-10 w-full underline-hover-effect">
           <figure class="w-full overflow-hidden md:w-[31%]">
-            <img src="images/services-2/services-2.png" alt="Artistry in Motion" class="w-full h-full block transition-all duration-500 group-hover:scale-125 group-hover:rotate-3">
+            <img src="images/services-2/services-2.webp" alt="Artistry in Motion" class="w-full h-full block transition-all duration-500 group-hover:scale-125 group-hover:rotate-3">
           </figure>
           <div class="md:mt-9 text-right">
             <p class="uppercase text-xs text-secondary dark:text-backgroundBody font-poppins font-normal leading-3 md:leading-6 tracking-[5px] md:tracking-[8px]">
@@ -185,7 +185,7 @@ get_template('navbar');
       <a href="project-details-02.php" class="max-md:w-full">
         <div class="flex flex-col md:flex-row items-start md:items-center gap-y-6 gap-x-10 w-full underline-hover-effect">
           <figure class="w-full md:w-[42%] overflow-hidden">
-            <img src="images/services-2/services-3.png" alt="Epicurean Elegance" class="w-full h-full block transition-all duration-500 group-hover:scale-125 group-hover:rotate-3">
+            <img src="images/services-2/services-3.webp" alt="Epicurean Elegance" class="w-full h-full block transition-all duration-500 group-hover:scale-125 group-hover:rotate-3">
           </figure>
 
           <div class="flex-1 md:mt-14">
@@ -214,7 +214,7 @@ get_template('navbar');
       <a href="project-details-02.php" class="w-full">
         <div class="flex flex-col md:flex-row-reverse items-end md:items-center gap-y-6 gap-x-10 w-full underline-hover-effect">
           <figure class="w-full overflow-hidden md:w-[61%]">
-            <img src="images/services-2/services-4.png" alt="Artistry in Motion" class="w-full h-full block transition-all duration-500 group-hover:scale-125 group-hover:rotate-3">
+            <img src="images/services-2/services-4.webp" alt="Artistry in Motion" class="w-full h-full block transition-all duration-500 group-hover:scale-125 group-hover:rotate-3">
           </figure>
           <div class="md:mt-9 text-right">
             <p class="uppercase text-xs text-secondary dark:text-backgroundBody font-poppins font-normal leading-3 md:leading-6 tracking-[5px] md:tracking-[8px]">
@@ -407,7 +407,7 @@ get_template('navbar');
         <a href="blog-details.php" class="flex flex-col">
           <!-- Blog Image with Hover Effect -->
           <figure class="aspect-[370/399] overflow-hidden mb-6">
-            <img src="images/blog-img/blog-img-8.png" alt="Blog Images" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-125 group-hover:rotate-3">
+            <img src="images/blog-img/blog-img-8.webp" alt="Blog Images" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-125 group-hover:rotate-3">
           </figure>
 
           <!-- Blog Content -->
@@ -444,7 +444,7 @@ get_template('navbar');
         <a href="blog-details.php" class="flex flex-col">
           <!-- Blog Image with Hover Effect -->
           <figure class="aspect-[370/399] overflow-hidden mb-6">
-            <img src="images/blog-img/blog-img-9.png" alt="Blog Images" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-125 group-hover:rotate-3">
+            <img src="images/blog-img/blog-img-9.webp" alt="Blog Images" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-125 group-hover:rotate-3">
           </figure>
 
           <!-- Blog Content -->
@@ -481,7 +481,7 @@ get_template('navbar');
         <a href="blog-details.php" class="flex flex-col">
           <!-- Blog Image with Hover Effect -->
           <figure class="aspect-[370/399] overflow-hidden mb-6">
-            <img src="images/blog-img/blog-img-10.png" alt="Blog Images" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-125 group-hover:rotate-3">
+            <img src="images/blog-img/blog-img-10.webp" alt="Blog Images" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-125 group-hover:rotate-3">
           </figure>
 
           <!-- Blog Content -->
@@ -522,7 +522,7 @@ get_template('navbar');
 ======================================-->
 <section class="pt-14 md:pt-16 lg:pt-[88px] xl:pt-[100px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] relative overflow-hidden">
   <div class="absolute max-lg:scale-y-[2.8] -z-30 scale-x-[2.2] left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2">
-    <img src="images/gradient-bg.png" alt="gradient-bg">
+    <img src="images/gradient-bg.webp" alt="gradient-bg">
   </div>
   <div class="container">
     <!-- Section Header -->
@@ -624,13 +624,13 @@ get_template('navbar');
       <div class="cta-slider-container max-sm:block sm:inline-block max-sm:mb-5 translate-y-2 sm:translate-y-[20px] max-sm:mt-2.5">
         <div class="cta-inline-slider">
           <div class="slide">
-            <img src="images/agent/01.jpg" alt="Slide 1">
+            <img src="images/agent/01.webp" alt="Slide 1">
           </div>
           <div class="slide">
-            <img src="images/agent/02.jpg" alt="Slide 2">
+            <img src="images/agent/02.webp" alt="Slide 2">
           </div>
           <div class="slide">
-            <img src="images/agent/03.jpg" alt="Slide 3">
+            <img src="images/agent/03.webp" alt="Slide 3">
           </div>
         </div>
       </div>

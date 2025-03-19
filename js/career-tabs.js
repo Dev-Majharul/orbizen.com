@@ -104,7 +104,7 @@ let tabContents={Overview:`
               </li>
               <li>
                 Educational Qualifications: The minimum level of education
-                required, such as a high school diploma, bachelor’s degree, or
+                required, such as a high school diploma, bachelor's degree, or
                 specialized certification.
               </li>
               <li>
@@ -136,7 +136,7 @@ let tabContents={Overview:`
             </li>
             <li>
               Educational Qualifications: The minimum level of education required,
-              such as a high school diploma, bachelor’s degree, or specialized
+              such as a high school diploma, bachelor's degree, or specialized
               certification.
             </li>
             <li>

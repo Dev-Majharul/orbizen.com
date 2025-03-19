@@ -25,7 +25,7 @@ get_template('navbar');
     <div class="p-6 md:p-7 lg:p-10 border dark:border-dark flex flex-col lg:flex-row justify-center lg:justify-normal max-lg:items-center gap-x-8 gap-y-6 reveal-me">
       <!-- Profile Image -->
       <figure class="w-full lg:w-[428px] md:h-[682px]">
-        <img src="images/team/single-team.png" alt="Single Team Member" class="w-full h-full object-cover">
+        <img src="images/team/single-team.webp" alt="Single Team Member" class="w-full h-full object-cover">
       </figure>
 
       <!-- Profile Information -->
@@ -114,13 +114,13 @@ get_template('navbar');
       <div class="cta-slider-container max-sm:block sm:inline-block max-sm:mb-5 translate-y-2 sm:translate-y-[20px] max-sm:mt-2.5">
         <div class="cta-inline-slider">
           <div class="slide">
-            <img src="images/agent/01.jpg" alt="Slide 1">
+            <img src="images/agent/01.webp" alt="Slide 1">
           </div>
           <div class="slide">
-            <img src="images/agent/02.jpg" alt="Slide 2">
+            <img src="images/agent/02.webp" alt="Slide 2">
           </div>
           <div class="slide">
-            <img src="images/agent/03.jpg" alt="Slide 3">
+            <img src="images/agent/03.webp" alt="Slide 3">
           </div>
         </div>
       </div>

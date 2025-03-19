@@ -135,7 +135,7 @@ get_template('navbar');
       </aside>
       <figure class="lg:col-span-6 max-lg:w-full">
         <img
-          src="images/services-2/services-1.png"
+          src="images/services-2/services-1.webp"
           alt="project-details-2-banner"
           class="w-full"
         />
@@ -192,7 +192,7 @@ get_template('navbar');
 
       <figure class="reveal-me">
         <img
-          src="images/project-details/project-details-2-banner.png"
+          src="images/project-details/project-details-2-banner.webp"
           alt="Box Mockup"
         />
       </figure>
@@ -235,7 +235,7 @@ get_template('navbar');
   <div
     class="absolute left-1/2 scale-y-75 scale-x-[1.8] top-1/2 -translate-y-1/2 -translate-x-1/2"
   >
-    <img src="images/gradient-bg.png" alt="" />
+    <img src="images/gradient-bg.webp" alt="" />
   </div>
   <div class="container">
     <!-- Section Heading -->
@@ -256,7 +256,7 @@ get_template('navbar');
           class="md:max-w-[372px] max-md:w-full md:h-[328px] overflow-hidden"
         >
           <img
-            src="images/services/services-2.png"
+            src="images/services/services-2.webp"
             alt=""
             class="w-full h-full object-cover transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
           />
@@ -311,13 +311,13 @@ get_template('navbar');
       >
         <div class="cta-inline-slider">
           <div class="slide">
-            <img src="images/agent/01.jpg" alt="Slide 1" />
+            <img src="images/agent/01.webp" alt="Slide 1" />
           </div>
           <div class="slide">
-            <img src="images/agent/02.jpg" alt="Slide 2" />
+            <img src="images/agent/02.webp" alt="Slide 2" />
           </div>
           <div class="slide">
-            <img src="images/agent/03.jpg" alt="Slide 3" />
+            <img src="images/agent/03.webp" alt="Slide 3" />
           </div>
         </div>
       </div>

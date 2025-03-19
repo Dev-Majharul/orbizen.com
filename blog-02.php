@@ -24,7 +24,7 @@ get_template('navbar');
     class="absolute w-full md:w-[40%] h-full md:h-[40%] max-md:top-1/2 max-lg:-translate-y-1/2 lg:top-0 -z-10 blur-[60px] scale-90"
   >
     <img
-      src="images/hero-gradient-background.png"
+      src="images/hero-gradient-background.webp"
       alt="hero-gradient-background"
       id="hero-gradient"
       class="absolute lg:left-[78%] xl:left-full max-md:top-20 md:top-[45%] lg:-translate-x-[78%]"
@@ -72,7 +72,7 @@ get_template('navbar');
       <div class="max-w-[370px] reveal-me group">
         <figure class="overflow-hidden">
           <img
-            src="images/blog-img/blogV2-img-1.png"
+            src="images/blog-img/blogV2-img-1.webp"
             alt="Web Design Trends"
             class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
           />
@@ -120,7 +120,7 @@ get_template('navbar');
       <div class="max-w-[370px] reveal-me group">
         <figure class="overflow-hidden">
           <img
-            src="images/blog-img/blogV2-img-2.png"
+            src="images/blog-img/blogV2-img-2.webp"
             alt="UX Design Process"
             class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
           />
@@ -168,7 +168,7 @@ get_template('navbar');
       <div class="max-w-[370px] reveal-me group">
         <figure class="overflow-hidden">
           <img
-            src="images/blog-img/blogV2-img-3.png"
+            src="images/blog-img/blogV2-img-3.webp"
             alt="Design Systems"
             class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
           />
@@ -217,7 +217,7 @@ get_template('navbar');
       <div class="max-w-[370px] reveal-me group">
         <figure class="overflow-hidden">
           <img
-            src="images/blog-img/blogV2-img-4.png"
+            src="images/blog-img/blogV2-img-4.webp"
             alt="AI in Design"
             class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
           />
@@ -266,7 +266,7 @@ get_template('navbar');
       <div class="max-w-[370px] reveal-me group">
         <figure class="overflow-hidden">
           <img
-            src="images/blog-img/blog-img-1.png"
+            src="images/blog-img/blog-img-1.webp"
             alt="Accessibility Design"
             class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
           />
@@ -315,7 +315,7 @@ get_template('navbar');
       <div class="max-w-[370px] reveal-me group">
         <figure class="overflow-hidden">
           <img
-            src="images/blog-img/blogV2-img-5.png"
+            src="images/blog-img/blogV2-img-5.webp"
             alt="Future of Design"
             class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
           />
@@ -474,13 +474,13 @@ get_template('navbar');
       >
         <div class="cta-inline-slider">
           <div class="slide">
-            <img src="images/agent/01.jpg" alt="Slide 1" />
+            <img src="images/agent/01.webp" alt="Slide 1" />
           </div>
           <div class="slide">
-            <img src="images/agent/02.jpg" alt="Slide 2" />
+            <img src="images/agent/02.webp" alt="Slide 2" />
           </div>
           <div class="slide">
-            <img src="images/agent/03.jpg" alt="Slide 3" />
+            <img src="images/agent/03.webp" alt="Slide 3" />
           </div>
         </div>
       </div>

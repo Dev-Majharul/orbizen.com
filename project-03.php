@@ -51,7 +51,7 @@ get_template('navbar');
         <a href="project-details.php">
           <figure class="overflow-hidden">
             <img
-              src="images/project-3/services-1.png"
+              src="images/project-3/services-1.webp"
               class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
               alt="Services Img"
             />
@@ -65,7 +65,7 @@ get_template('navbar');
         <a href="project-details.php">
           <figure class="overflow-hidden">
             <img
-              src="images/project-3/services-7.png"
+              src="images/project-3/services-7.webp"
               class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
               alt="Services Img"
             />
@@ -79,7 +79,7 @@ get_template('navbar');
         <a href="project-details.php">
           <figure class="overflow-hidden">
             <img
-              src="images/project-3/services-3.png"
+              src="images/project-3/services-3.webp"
               class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
               alt="Services Img"
             />
@@ -94,7 +94,7 @@ get_template('navbar');
         <a href="project-details.php">
           <figure class="overflow-hidden">
             <img
-              src="images/project-3/services-7.png"
+              src="images/project-3/services-7.webp"
               class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
               alt="Services Img"
             />
@@ -108,7 +108,7 @@ get_template('navbar');
         <a href="project-details.php">
           <figure class="overflow-hidden">
             <img
-              src="images/project-3/services-5.png"
+              src="images/project-3/services-5.webp"
               class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
               alt="Services Img"
             />
@@ -123,7 +123,7 @@ get_template('navbar');
         <a href="project-details.php">
           <figure class="overflow-hidden">
             <img
-              src="images/project-3/services-6.png"
+              src="images/project-3/services-6.webp"
               class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
               alt="Services Img"
             />
@@ -137,7 +137,7 @@ get_template('navbar');
         <a href="project-details.php">
           <figure class="overflow-hidden">
             <img
-              src="images/project-3/services-7.png"
+              src="images/project-3/services-7.webp"
               class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
               alt="Services Img"
             />
@@ -152,7 +152,7 @@ get_template('navbar');
         <a href="project-details.php">
           <figure class="overflow-hidden">
             <img
-              src="images/project-3/services-8.png"
+              src="images/project-3/services-8.webp"
               class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
               alt="Services Img"
             />

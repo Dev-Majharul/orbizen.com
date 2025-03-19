@@ -73,7 +73,7 @@ get_template('header');
   >
     <!-- Gradient Background Image: Positioned centrally with responsive sizing -->
     <img
-      src="images/hero-gradient-background.png"
+      src="images/hero-gradient-background.webp"
       alt="hero-gradient-background"
       id="hero-gradient"
       class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"

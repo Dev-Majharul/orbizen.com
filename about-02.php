@@ -100,27 +100,27 @@ get_template('navbar');
           <figure
             class="marquee-part flex items-center justify-center size-[370px] z-50 flex-shrink-0"
           >
-            <img src="images/marquee-img/hero-marquee-01.png" alt="images" />
+            <img src="images/marquee-img/hero-marquee-01.webp" alt="images" />
           </figure>
           <figure
             class="marquee-part flex items-center justify-center z-50 size-[370px] flex-shrink-0"
           >
-            <img src="images/marquee-img/hero-marquee-02.png" alt="images" />
+            <img src="images/marquee-img/hero-marquee-02.webp" alt="images" />
           </figure>
           <figure
             class="marquee-part flex items-center justify-center z-50 size-[370px] flex-shrink-0"
           >
-            <img src="images/marquee-img/hero-marquee-03.png" alt="images" />
+            <img src="images/marquee-img/hero-marquee-03.webp" alt="images" />
           </figure>
           <figure
             class="marquee-part flex items-center justify-center z-50 size-[370px] flex-shrink-0"
           >
-            <img src="images/marquee-img/hero-marquee-04.png" alt="images" />
+            <img src="images/marquee-img/hero-marquee-04.webp" alt="images" />
           </figure>
           <figure
             class="marquee-part flex items-center justify-center z-50 size-[370px] flex-shrink-0"
           >
-            <img src="images/marquee-img/hero-marquee-05.png" alt="images" />
+            <img src="images/marquee-img/hero-marquee-05.webp" alt="images" />
           </figure>
         </div>
       </div>
@@ -138,7 +138,7 @@ get_template('navbar');
   <div
     class="absolute scale-y-[3.8] sm:scale-y-[3.3] md:scale-y-[3.2] lg:scale-y-[2.4] xl:scale-y-[1.2] scale-x-[2.7] xl:scale-x-[2.4] left-1/2 top-[47%] lg:top-[45%] -translate-y-[45%] -translate-x-1/2"
   >
-    <img src="images/services-gradient-bg-2.png" alt="gradient-bg" />
+    <img src="images/services-gradient-bg-2.webp" alt="gradient-bg" />
   </div>
   <div class="container">
     <!-- Section Header -->
@@ -582,7 +582,7 @@ get_template('navbar');
           class="group relative w-40 h-96 transition-all duration-500 ease-in-out hover:w-96 hover:h-full cursor-pointer"
         >
           <img
-            src="images/home-ai/team/ai-team-1.png"
+            src="images/home-ai/team/ai-team-1.webp"
             alt="Team member 1"
             class="w-full h-full object-cover shadow-lg transition-all duration-300 ease-in-out"
           />
@@ -603,7 +603,7 @@ get_template('navbar');
           class="group relative w-40 h-96 transition-all duration-500 ease-in-out hover:w-96 hover:h-full cursor-pointer"
         >
           <img
-            src="images/home-ai/team/ai-team-2.png"
+            src="images/home-ai/team/ai-team-2.webp"
             alt="Team member 1"
             class="w-full h-full object-cover shadow-lg transition-all duration-300 ease-in-out"
           />
@@ -624,7 +624,7 @@ get_template('navbar');
           class="group relative w-40 h-96 transition-all duration-500 ease-in-out hover:w-96 hover:h-full cursor-pointer"
         >
           <img
-            src="images/home-ai/team/ai-team-3.png"
+            src="images/home-ai/team/ai-team-3.webp"
             alt="Team member 1"
             class="w-full h-full object-cover shadow-lg transition-all duration-300 ease-in-out"
           />
@@ -645,7 +645,7 @@ get_template('navbar');
           class="group relative w-40 h-96 transition-all duration-500 ease-in-out hover:w-96 hover:h-full cursor-pointer"
         >
           <img
-            src="images/home-ai/team/ai-team-4.png"
+            src="images/home-ai/team/ai-team-4.webp"
             alt="Team member 1"
             class="w-full h-full object-cover shadow-lg transition-all duration-300 ease-in-out"
           />
@@ -666,7 +666,7 @@ get_template('navbar');
           class="group relative w-40 h-96 transition-all duration-500 ease-in-out hover:w-96 hover:h-full cursor-pointer"
         >
           <img
-            src="images/home-ai/team/ai-team-5.png"
+            src="images/home-ai/team/ai-team-5.webp"
             alt="Team member 1"
             class="w-full h-full object-cover shadow-lg transition-all duration-300 ease-in-out"
           />
@@ -687,7 +687,7 @@ get_template('navbar');
           class="group relative w-40 h-96 transition-all duration-500 ease-in-out hover:w-96 hover:h-full cursor-pointer"
         >
           <img
-            src="images/home-ai/team/ai-team-4.png"
+            src="images/home-ai/team/ai-team-4.webp"
             alt="Team member 1"
             class="w-full h-full object-cover shadow-lg transition-all duration-300 ease-in-out"
           />
@@ -714,7 +714,7 @@ get_template('navbar');
       >
         <div class="relative reveal-me">
           <img
-            src="images/home-ai/team/ai-team-1.png"
+            src="images/home-ai/team/ai-team-1.webp"
             alt="Team member 1"
             class="w-full h-full object-cover shadow-lg"
           />
@@ -733,7 +733,7 @@ get_template('navbar');
         </div>
         <div class="relative reveal-me">
           <img
-            src="images/home-ai/team/ai-team-2.png"
+            src="images/home-ai/team/ai-team-2.webp"
             alt="Team member 1"
             class="w-full h-full object-cover shadow-lg transition-all duration-300 ease-in-out"
           />
@@ -752,7 +752,7 @@ get_template('navbar');
         </div>
         <div class="relative reveal-me">
           <img
-            src="images/home-ai/team/ai-team-3.png"
+            src="images/home-ai/team/ai-team-3.webp"
             alt="Team member 1"
             class="w-full h-full object-cover shadow-lg transition-all duration-300 ease-in-out"
           />
@@ -771,7 +771,7 @@ get_template('navbar');
         </div>
         <div class="relative reveal-me">
           <img
-            src="images/home-ai/team/ai-team-4.png"
+            src="images/home-ai/team/ai-team-4.webp"
             alt="Team member 1"
             class="w-full h-full object-cover shadow-lg transition-all duration-300 ease-in-out"
           />
@@ -790,7 +790,7 @@ get_template('navbar');
         </div>
         <div class="relative reveal-me">
           <img
-            src="images/home-ai/team/ai-team-5.png"
+            src="images/home-ai/team/ai-team-5.webp"
             alt="Team member 1"
             class="w-full h-full object-cover shadow-lg transition-all duration-300 ease-in-out"
           />
@@ -809,7 +809,7 @@ get_template('navbar');
         </div>
         <div class="relative reveal-me">
           <img
-            src="images/home-ai/team/ai-team-4.png"
+            src="images/home-ai/team/ai-team-4.webp"
             alt="Team member 1"
             class="w-full h-full object-cover shadow-lg transition-all duration-300 ease-in-out"
           />
@@ -961,7 +961,7 @@ get_template('navbar');
               </h3>
               <div class="flex justify-between items-center">
                 <div class="flex items-center gap-3">
-                  <img src="images/avatar/review-5.png" alt="Avatar Img" />
+                  <img src="images/avatar/review-5.webp" alt="Avatar Img" />
                   <div>
                     <h4
                       class="text-lg md:text-2xl md:leading-[1.2] text-backgroundBody"
@@ -1035,7 +1035,7 @@ get_template('navbar');
               </h3>
               <div class="flex justify-between items-center">
                 <div class="flex items-center gap-3">
-                  <img src="images/avatar/review-2.png" alt="Avatar Img" />
+                  <img src="images/avatar/review-2.webp" alt="Avatar Img" />
                   <div>
                     <h4
                       class="text-lg md:text-2xl md:leading-[1.2] text-backgroundBody"
@@ -1109,7 +1109,7 @@ get_template('navbar');
               </h3>
               <div class="flex justify-between items-center">
                 <div class="flex items-center gap-3">
-                  <img src="images/avatar/review-8.png" alt="Avatar Img" />
+                  <img src="images/avatar/review-8.webp" alt="Avatar Img" />
                   <div>
                     <h4
                       class="text-lg md:text-2xl md:leading-[1.2] text-backgroundBody"

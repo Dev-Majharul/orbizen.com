@@ -46,7 +46,7 @@ if (!defined('ABSPATH')) {
     "name": "Orbizen Limited",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://orbizen.com/images/logo.png",
+      "url": "https://orbizen.com/images/logo.webp",
       "width": "180",
       "height": "60"
     }

@@ -22,7 +22,7 @@ get_template('navbar');
 <section class="pt-28 sm:pb-28 max-md:pb-16 md:py-[155px] lg:py-[177px] relative z-50 overflow-hidden">
   <div id="hero-gradient-wrapper" class="absolute w-full h-full top-0 left-0 -z-10 blur-[35px] md:blur-[60px] scale-75">
     <!-- Gradient Background Image: Positioned centrally with responsive sizing -->
-    <img src="images/hero-gradient-background.png" alt="hero-gradient-background" id="hero-gradient" class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+    <img src="images/hero-gradient-background.webp" alt="hero-gradient-background" id="hero-gradient" class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
   </div>
 
   <!-- Content Container -->
@@ -48,7 +48,7 @@ get_template('navbar');
       <div class="relative group cursor-pointer reveal-me">
         <a href="project-details.php" class="w-full">
           <figure class="overflow-hidden">
-            <img class="w-full h-full block transition-all duration-500 group-hover:scale-125" src="images/services/services-1.png" alt="Services Image">
+            <img class="w-full h-full block transition-all duration-500 group-hover:scale-125" src="images/services/services-1.webp" alt="Services Image">
           </figure>
           <div class="bg-secondary/50 backdrop-blur w-[calc(100%-20px)] py-2.5 pl-5 sm:pl-10 mx-2.5 absolute bottom-4 pr-2.5 flex items-center justify-between group-hover:scale-[1.01] transition-all duration-500">
             <h3 class="text-white text-2xl lg:text-[32px]">Project Nexus</h3>
@@ -62,7 +62,7 @@ get_template('navbar');
       <div class="relative group cursor-pointer reveal-me">
         <a href="project-details.php" class="w-full">
           <figure class="overflow-hidden">
-            <img class="w-full h-full block transition-all duration-500 hover:scale-125" src="images/services/services-2.png" alt="Services Image">
+            <img class="w-full h-full block transition-all duration-500 hover:scale-125" src="images/services/services-2.webp" alt="Services Image">
           </figure>
           <div class="bg-secondary/50 backdrop-blur w-[calc(100%-20px)] py-2.5 pl-5 sm:pl-10 mx-2.5 absolute bottom-4 pr-2.5 flex items-center justify-between group-hover:scale-[1.01] transition-all duration-500">
             <h3 class="text-white text-2xl lg:text-[32px]">Code.ai</h3>
@@ -76,7 +76,7 @@ get_template('navbar');
       <div class="relative group cursor-pointer reveal-me">
         <a href="project-details.php" class="w-full">
           <figure class="overflow-hidden">
-            <img class="w-full h-full block transition-all duration-500 hover:scale-125" src="images/services/services-3.png" alt="Services Image">
+            <img class="w-full h-full block transition-all duration-500 hover:scale-125" src="images/services/services-3.webp" alt="Services Image">
           </figure>
           <div class="bg-secondary/50 backdrop-blur w-[calc(100%-20px)] py-2.5 pl-5 sm:pl-10 mx-2.5 absolute bottom-4 pr-2.5 flex items-center justify-between group-hover:scale-[1.01] transition-all duration-500">
             <h3 class="text-white text-2xl lg:text-[32px]">Black Code.ai</h3>
@@ -90,7 +90,7 @@ get_template('navbar');
       <div class="relative group cursor-pointer reveal-me">
         <a href="project-details.php" class="w-full">
           <figure class="overflow-hidden">
-            <img class="w-full h-full block transition-all duration-500 hover:scale-125" src="images/services/services-4.png" alt="Services Image">
+            <img class="w-full h-full block transition-all duration-500 hover:scale-125" src="images/services/services-4.webp" alt="Services Image">
           </figure>
           <div class="bg-secondary/50 backdrop-blur w-[calc(100%-20px)] py-2.5 pl-5 sm:pl-10 mx-2.5 absolute bottom-4 pr-2.5 flex items-center justify-between group-hover:scale-[1.01] transition-all duration-500">
             <h3 class="text-white text-2xl lg:text-[32px]">Graphic.ai</h3>
@@ -104,7 +104,7 @@ get_template('navbar');
       <div class="relative group cursor-pointer reveal-me">
         <a href="project-details.php" class="w-full">
           <figure class="overflow-hidden">
-            <img class="w-full h-full block transition-all duration-500 hover:scale-125" src="images/services/services-5.png" alt="Services Image">
+            <img class="w-full h-full block transition-all duration-500 hover:scale-125" src="images/services/services-5.webp" alt="Services Image">
           </figure>
           <div class="bg-secondary/50 backdrop-blur w-[calc(100%-20px)] py-2.5 pl-5 sm:pl-10 mx-2.5 absolute bottom-4 pr-2.5 flex items-center justify-between group-hover:scale-[1.01] transition-all duration-500">
             <h3 class="text-white text-2xl lg:text-[32px]">Booklet mockup</h3>
@@ -118,7 +118,7 @@ get_template('navbar');
       <div class="relative group cursor-pointer reveal-me">
         <a href="project-details.php" class="w-full">
           <figure class="overflow-hidden">
-            <img class="w-full h-full block transition-all duration-500 hover:scale-125" src="images/services/services-6.png" alt="Services Image">
+            <img class="w-full h-full block transition-all duration-500 hover:scale-125" src="images/services/services-6.webp" alt="Services Image">
           </figure>
           <div class="bg-secondary/50 backdrop-blur w-[calc(100%-20px)] py-2.5 pl-5 sm:pl-10 mx-2.5 absolute bottom-4 pr-2.5 flex items-center justify-between group-hover:scale-[1.01] transition-all duration-500">
             <h3 class="text-white text-2xl lg:text-[32px]">Packaging</h3>
@@ -132,7 +132,7 @@ get_template('navbar');
       <div class="relative group cursor-pointer reveal-me">
         <a href="project-details.php" class="w-full">
           <figure class="overflow-hidden">
-            <img class="w-full h-full block transition-all duration-500 hover:scale-125" src="images/services/services-7.png" alt="Services Image">
+            <img class="w-full h-full block transition-all duration-500 hover:scale-125" src="images/services/services-7.webp" alt="Services Image">
           </figure>
           <div class="bg-secondary/50 backdrop-blur w-[calc(100%-20px)] py-2.5 pl-5 sm:pl-10 mx-2.5 absolute bottom-4 pr-2.5 flex items-center justify-between group-hover:scale-[1.01] transition-all duration-500">
             <h3 class="text-white text-2xl lg:text-[32px]">Business Card</h3>
@@ -146,7 +146,7 @@ get_template('navbar');
       <div class="relative group cursor-pointer reveal-me">
         <a href="project-details.php" class="w-full">
           <figure class="overflow-hidden">
-            <img class="w-full h-full block transition-all duration-500 hover:scale-125" src="images/services/services-8.png" alt="Services Image">
+            <img class="w-full h-full block transition-all duration-500 hover:scale-125" src="images/services/services-8.webp" alt="Services Image">
           </figure>
           <div class="bg-secondary/50 backdrop-blur w-[calc(100%-20px)] py-2.5 pl-5 sm:pl-10 mx-2.5 absolute bottom-4 pr-2.5 flex items-center justify-between group-hover:scale-[1.01] transition-all duration-500">
             <h3 class="text-white text-2xl lg:text-[32px]">Clay.ai</h3>
@@ -167,7 +167,7 @@ get_template('navbar');
 ======================================-->
 <section class="pt-14 md:pt-16 lg:pt-[88px] xl:pt-[100px] pb-20 lg:pb-28 relative overflow-hidden">
   <div class="absolute scale-x-[2.5] scale-y-[0.75] left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2">
-    <img src="images/gradient-bg.png" alt="">
+    <img src="images/gradient-bg.webp" alt="">
   </div>
   <div class="container">
     <!-- CTA Heading -->
@@ -176,13 +176,13 @@ get_template('navbar');
       <div class="cta-slider-container max-sm:block sm:inline-block max-sm:mb-5 translate-y-2 sm:translate-y-[20px] max-sm:mt-2.5">
         <div class="cta-inline-slider">
           <div class="slide">
-            <img src="images/agent/01.jpg" alt="Slide 1">
+            <img src="images/agent/01.webp" alt="Slide 1">
           </div>
           <div class="slide">
-            <img src="images/agent/02.jpg" alt="Slide 2">
+            <img src="images/agent/02.webp" alt="Slide 2">
           </div>
           <div class="slide">
-            <img src="images/agent/03.jpg" alt="Slide 3">
+            <img src="images/agent/03.webp" alt="Slide 3">
           </div>
         </div>
       </div>

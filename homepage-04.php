@@ -25,7 +25,7 @@ get_template('navbar');
     class="absolute w-full h-full top-0 left-0 -z-10 blur-[35px] md:blur-[60px] sm:scale-75 md:scale-100"
   >
     <img
-      src="images/hero-gradient-background.png"
+      src="images/hero-gradient-background.webp"
       alt="hero-gradient-background"
       id="hero-gradient"
       class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
@@ -88,7 +88,7 @@ get_template('navbar');
         A few words about me
       </h3>
       <div class="flex flex-col lg:flex-row gap-y-16 gap-x-16 reveal-me">
-        <img src="images/portfolio/about-banner.png" alt="About me" />
+        <img src="images/portfolio/about-banner.webp" alt="About me" />
         <div>
           <p class="max-w-2xl mb-8">
             Behind the Lens: With an unwavering love for the art form, I embark
@@ -147,7 +147,7 @@ get_template('navbar');
         <a href="project-details.php">
           <figure class="overflow-hidden">
             <img
-              src="images/blog-img/blog-img-17.png"
+              src="images/blog-img/blog-img-17.webp"
               class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
               alt="Blog Images"
             />
@@ -180,7 +180,7 @@ get_template('navbar');
         <a href="project-details.php">
           <figure class="overflow-hidden">
             <img
-              src="images/blog-img/blog-img-18.png"
+              src="images/blog-img/blog-img-18.webp"
               class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
               alt="Blog Images"
             />
@@ -213,7 +213,7 @@ get_template('navbar');
         <a href="project-details.php">
           <figure class="overflow-hidden">
             <img
-              src="images/blog-img/blog-img-19.png"
+              src="images/blog-img/blog-img-19.webp"
               class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
               alt="Blog Images"
             />
@@ -246,7 +246,7 @@ get_template('navbar');
         <a href="project-details.php">
           <figure class="overflow-hidden">
             <img
-              src="images/blog-img/blog-img-20.png"
+              src="images/blog-img/blog-img-20.webp"
               class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
               alt="Blog Images"
             />
@@ -592,7 +592,7 @@ get_template('navbar');
               class="transform transition-all duration-700 ease-in-out opacity-0 h-0 -translate-y-4 group-hover:opacity-100 group-hover:h-[110px] md:group-hover:h-[160px] lg:group-hover:h-[230px] group-hover:translate-y-0"
             >
               <img
-                src="images/services/photography-services.png"
+                src="images/services/photography-services.webp"
                 alt="Hover on Photography Services"
                 class="px-5 md:px-10 pb-5 md:pb-10 pt-4 transition-all duration-700 ease-in-out object-cover"
               />
@@ -652,7 +652,7 @@ get_template('navbar');
               class="transform transition-all duration-700 ease-in-out opacity-0 h-0 -translate-y-4 group-hover:opacity-100 group-hover:h-[110px] md:group-hover:h-[160px] lg:group-hover:h-[230px] group-hover:translate-y-0"
             >
               <img
-                src="images/services/photography-services-02.png"
+                src="images/services/photography-services-02.webp"
                 alt="Hover on Photography Services"
                 class="px-5 md:px-10 pb-5 md:pb-10 pt-4 transition-all duration-700 ease-in-out object-cover"
               />
@@ -712,7 +712,7 @@ get_template('navbar');
               class="transform transition-all duration-700 ease-in-out opacity-0 h-0 -translate-y-4 group-hover:opacity-100 group-hover:h-[110px] md:group-hover:h-[160px] lg:group-hover:h-[230px] group-hover:translate-y-0"
             >
               <img
-                src="images/services/photography-services-03.png"
+                src="images/services/photography-services-03.webp"
                 alt="Hover on Photography Services"
                 class="px-5 md:px-10 pb-5 md:pb-10 pt-4 transition-all duration-700 ease-in-out object-cover"
               />
@@ -772,7 +772,7 @@ get_template('navbar');
               class="transform transition-all duration-700 ease-in-out opacity-0 h-0 -translate-y-4 group-hover:opacity-100 group-hover:h-[110px] md:group-hover:h-[160px] lg:group-hover:h-[230px] group-hover:translate-y-0"
             >
               <img
-                src="images/services/photography-services-04.png"
+                src="images/services/photography-services-04.webp"
                 alt="Hover on Photography Services"
                 class="px-5 md:px-10 pb-5 md:pb-10 pt-4 transition-all duration-700 ease-in-out object-cover"
               />
@@ -914,7 +914,7 @@ get_template('navbar');
               </h3>
               <div class="flex justify-between items-center">
                 <div class="flex items-center gap-3">
-                  <img src="images/avatar/review-5.png" alt="Avatar Img" />
+                  <img src="images/avatar/review-5.webp" alt="Avatar Img" />
                   <div>
                     <h4
                       class="text-lg md:text-2xl md:leading-[1.2] text-backgroundBody"
@@ -988,7 +988,7 @@ get_template('navbar');
               </h3>
               <div class="flex justify-between items-center">
                 <div class="flex items-center gap-3">
-                  <img src="images/avatar/review-2.png" alt="Avatar Img" />
+                  <img src="images/avatar/review-2.webp" alt="Avatar Img" />
                   <div>
                     <h4
                       class="text-lg md:text-2xl md:leading-[1.2] text-backgroundBody"
@@ -1062,7 +1062,7 @@ get_template('navbar');
               </h3>
               <div class="flex justify-between items-center">
                 <div class="flex items-center gap-3">
-                  <img src="images/avatar/review-8.png" alt="Avatar Img" />
+                  <img src="images/avatar/review-8.webp" alt="Avatar Img" />
                   <div>
                     <h4
                       class="text-lg md:text-2xl md:leading-[1.2] text-backgroundBody"
@@ -1122,13 +1122,13 @@ get_template('navbar');
       >
         <div class="cta-inline-slider">
           <div class="slide">
-            <img src="images/agent/01.jpg" alt="Slide 1" />
+            <img src="images/agent/01.webp" alt="Slide 1" />
           </div>
           <div class="slide">
-            <img src="images/agent/02.jpg" alt="Slide 2" />
+            <img src="images/agent/02.webp" alt="Slide 2" />
           </div>
           <div class="slide">
-            <img src="images/agent/03.jpg" alt="Slide 3" />
+            <img src="images/agent/03.webp" alt="Slide 3" />
           </div>
         </div>
       </div>

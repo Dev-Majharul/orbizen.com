@@ -29,7 +29,7 @@ get_template('navbar');
   >
     <!-- Gradient Background Image: Positioned centrally with responsive sizing -->
     <img
-      src="images/hero-gradient-background.png"
+      src="images/hero-gradient-background.webp"
       alt="hero-gradient-background"
       id="hero-gradient"
       class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
@@ -241,13 +241,13 @@ get_template('navbar');
       >
         <div class="cta-inline-slider">
           <div class="slide">
-            <img src="images/agent/01.jpg" alt="Slide 1" />
+            <img src="images/agent/01.webp" alt="Slide 1" />
           </div>
           <div class="slide">
-            <img src="images/agent/02.jpg" alt="Slide 2" />
+            <img src="images/agent/02.webp" alt="Slide 2" />
           </div>
           <div class="slide">
-            <img src="images/agent/03.jpg" alt="Slide 3" />
+            <img src="images/agent/03.webp" alt="Slide 3" />
           </div>
         </div>
       </div>

@@ -73,7 +73,7 @@ get_template('navbar');
         >
           <figure class="w-full md:w-[42%] overflow-hidden">
             <img
-              src="images/services-2/services-1.png"
+              src="images/services-2/services-1.webp"
               alt="Epicurean Elegance"
               class="w-full h-full block transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
             />
@@ -113,7 +113,7 @@ get_template('navbar');
         >
           <figure class="w-full overflow-hidden md:w-[31%]">
             <img
-              src="images/services-2/services-2.png"
+              src="images/services-2/services-2.webp"
               alt="Artistry in Motion"
               class="w-full h-full block transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
             />
@@ -150,7 +150,7 @@ get_template('navbar');
         >
           <figure class="w-full md:w-[52%] overflow-hidden">
             <img
-              src="images/services-2/services-3.png"
+              src="images/services-2/services-3.webp"
               alt="Epicurean Elegance"
               class="w-full h-full block transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
             />
@@ -191,7 +191,7 @@ get_template('navbar');
         >
           <figure class="w-full overflow-hidden md:w-[55%]">
             <img
-              src="images/services-2/services-4.png"
+              src="images/services-2/services-4.webp"
               alt="Artistry in Motion"
               class="w-full h-full block transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
             />
@@ -227,7 +227,7 @@ get_template('navbar');
         >
           <figure class="overflow-hidden max-md:w-full">
             <img
-              src="images/services-2/services-5.png"
+              src="images/services-2/services-5.webp"
               alt="Digital Canvas"
               class="w-full group-hover:scale-125 group-hover:rotate-3 transition-all md:w-[380px] duration-500 object-cover"
             />
@@ -263,7 +263,7 @@ get_template('navbar');
         >
           <figure class="overflow-hidden max-md:w-full">
             <img
-              src="images/services-2/services-6.png"
+              src="images/services-2/services-6.webp"
               alt="Digital Canvas"
               class="w-full group-hover:scale-125 group-hover:rotate-3 transition-all duration-500"
             />
@@ -312,13 +312,13 @@ get_template('navbar');
       >
         <div class="cta-inline-slider">
           <div class="slide">
-            <img src="images/agent/01.jpg" alt="Slide 1" />
+            <img src="images/agent/01.webp" alt="Slide 1" />
           </div>
           <div class="slide">
-            <img src="images/agent/02.jpg" alt="Slide 2" />
+            <img src="images/agent/02.webp" alt="Slide 2" />
           </div>
           <div class="slide">
-            <img src="images/agent/03.jpg" alt="Slide 3" />
+            <img src="images/agent/03.webp" alt="Slide 3" />
           </div>
         </div>
       </div>

@@ -26,7 +26,7 @@ get_template('navbar');
     class="absolute w-2/6 h-2/6 top-40 left-[12%] -z-10 blur-[35px] md:blur-[60px]"
   >
     <img
-      src="images/hero-gradient-background.png"
+      src="images/hero-gradient-background.webp"
       alt="hero-gradient-background"
       id="hero-gradient"
       class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
@@ -45,13 +45,13 @@ get_template('navbar');
         >
           <div class="cta-inline-slider">
             <div class="slide">
-              <img src="images/agent/01.jpg" alt="Slide 1" />
+              <img src="images/agent/01.webp" alt="Slide 1" />
             </div>
             <div class="slide">
-              <img src="images/agent/02.jpg" alt="Slide 2" />
+              <img src="images/agent/02.webp" alt="Slide 2" />
             </div>
             <div class="slide">
-              <img src="images/agent/03.jpg" alt="Slide 3" />
+              <img src="images/agent/03.webp" alt="Slide 3" />
             </div>
           </div>
         </div>
@@ -84,27 +84,27 @@ get_template('navbar');
           <figure
             class="marquee-part flex items-center justify-center size-[370px] z-50 flex-shrink-0"
           >
-            <img src="images/marquee-img/hero-marquee-01.png" alt="images" />
+            <img src="images/marquee-img/hero-marquee-01.webp" alt="images" />
           </figure>
           <figure
             class="marquee-part flex items-center justify-center z-50 size-[370px] flex-shrink-0"
           >
-            <img src="images/marquee-img/hero-marquee-02.png" alt="images" />
+            <img src="images/marquee-img/hero-marquee-02.webp" alt="images" />
           </figure>
           <figure
             class="marquee-part flex items-center justify-center z-50 size-[370px] flex-shrink-0"
           >
-            <img src="images/marquee-img/hero-marquee-03.png" alt="images" />
+            <img src="images/marquee-img/hero-marquee-03.webp" alt="images" />
           </figure>
           <figure
             class="marquee-part flex items-center justify-center z-50 size-[370px] flex-shrink-0"
           >
-            <img src="images/marquee-img/hero-marquee-04.png" alt="images" />
+            <img src="images/marquee-img/hero-marquee-04.webp" alt="images" />
           </figure>
           <figure
             class="marquee-part flex items-center justify-center z-50 size-[370px] flex-shrink-0"
           >
-            <img src="images/marquee-img/hero-marquee-05.png" alt="images" />
+            <img src="images/marquee-img/hero-marquee-05.webp" alt="images" />
           </figure>
         </div>
       </div>
@@ -134,7 +134,7 @@ get_template('navbar');
 
     <div class="flex flex-col md:flex-row gap-20 reveal-me">
       <figure class="sticky top-7">
-        <img src="images/process-img-01.png" alt="Process Images " />
+        <img src="images/process-img-01.webp" alt="Process Images " />
       </figure>
 
       <div>
@@ -221,16 +221,16 @@ get_template('navbar');
   <div class="marquee-container reveal-me">
     <div class="flex items-center justify-around gap-[30px]">
       <div class="min-w-60 md:min-w-[370px] h-72 md:h-[470px] ml-[30px]">
-        <img src="images/marquee-img/our-work-01.png" alt="client Logo" />
+        <img src="images/marquee-img/our-work-01.webp" alt="client Logo" />
       </div>
       <div class="min-w-60 md:min-w-[370px] h-72 md:h-[470px]">
-        <img src="images/marquee-img/our-work-02.png" alt="client Logo" />
+        <img src="images/marquee-img/our-work-02.webp" alt="client Logo" />
       </div>
       <div class="min-w-60 md:min-w-[370px] h-72 md:h-[470px]">
-        <img src="images/marquee-img/our-work-03.png" alt="client Logo" />
+        <img src="images/marquee-img/our-work-03.webp" alt="client Logo" />
       </div>
       <div class="min-w-60 md:min-w-[370px] h-72 md:h-[470px]">
-        <img src="images/marquee-img/our-work-04.png" alt="client Logo" />
+        <img src="images/marquee-img/our-work-04.webp" alt="client Logo" />
       </div>
     </div>
   </div>
@@ -239,19 +239,19 @@ get_template('navbar');
   <div class="marquee-reverse-container reveal-me">
     <div class="flex items-center justify-around gap-[30px] pt-[30px]">
       <div class="min-w-60 md:min-w-[370px] h-72 md:h-[470px] ml-[30px]">
-        <img src="images/marquee-img/our-work-05.png" alt="client Logo" />
+        <img src="images/marquee-img/our-work-05.webp" alt="client Logo" />
       </div>
       <div class="min-w-60 md:min-w-[370px] h-72 md:h-[470px]">
-        <img src="images/marquee-img/our-work-06.png" alt="client Logo" />
+        <img src="images/marquee-img/our-work-06.webp" alt="client Logo" />
       </div>
       <div class="min-w-60 md:min-w-[370px] h-72 md:h-[470px]">
-        <img src="images/marquee-img/our-work-07.png" alt="client Logo" />
+        <img src="images/marquee-img/our-work-07.webp" alt="client Logo" />
       </div>
       <div class="min-w-60 md:min-w-[370px] h-72 md:h-[470px]">
-        <img src="images/marquee-img/our-work-08.png" alt="client Logo" />
+        <img src="images/marquee-img/our-work-08.webp" alt="client Logo" />
       </div>
       <div class="min-w-60 md:min-w-[370px] h-72 md:h-[470px]">
-        <img src="images/marquee-img/our-work-09.png" alt="client Logo" />
+        <img src="images/marquee-img/our-work-09.webp" alt="client Logo" />
       </div>
     </div>
   </div>
@@ -267,7 +267,7 @@ get_template('navbar');
   <div
     class="absolute scale-y-[3.8] sm:scale-y-[3.3] md:scale-y-[2.8] lg:scale-y-[2.4] xl:scale-y-[1.2] scale-x-[2.7] xl:scale-x-[2.4] left-1/2 top-[47%] -translate-y-[45%] -translate-x-1/2"
   >
-    <img src="images/services-gradient-bg-2.png" alt="" />
+    <img src="images/services-gradient-bg-2.webp" alt="" />
   </div>
   <div class="container">
     <div class="text-center mb-10 md:mb-20 reveal-me">
@@ -1379,7 +1379,7 @@ get_template('navbar');
         >
           <div class="flex items-center space-x-4 pb-4">
             <img
-              src="images/avatar/review-1.png"
+              src="images/avatar/review-1.webp"
               alt="Wade Warren"
               class="rounded-full w-16 h-16"
             />
@@ -1433,12 +1433,12 @@ get_template('navbar');
           <div class="flex justify-between items-center pt-4">
             <div class="flex items-center space-x-1">
               <img
-                src="images/icons/testimonial-logo.png"
+                src="images/icons/testimonial-logo.webp"
                 alt="Logo"
                 class="inline dark:hidden"
               />
               <img
-                src="images/icons/testimonial-dark-logo.png"
+                src="images/icons/testimonial-dark-logo.webp"
                 alt="Logo"
                 class="dark:inline hidden"
               />
@@ -1452,7 +1452,7 @@ get_template('navbar');
         <div class="max-w-[408px] border dark:border-backgroundBody/10 p-5">
           <div class="flex items-center space-x-4 pb-4">
             <img
-              src="images/avatar/review-2.png"
+              src="images/avatar/review-2.webp"
               alt="Wade Warren"
               class="rounded-full w-16 h-16"
             />
@@ -1505,12 +1505,12 @@ get_template('navbar');
           <div class="flex justify-between items-center pt-4">
             <div class="flex items-center space-x-1">
               <img
-                src="images/icons/testimonial-logo.png"
+                src="images/icons/testimonial-logo.webp"
                 alt="Logo"
                 class="inline dark:hidden"
               />
               <img
-                src="images/icons/testimonial-dark-logo.png"
+                src="images/icons/testimonial-dark-logo.webp"
                 alt="Logo"
                 class="dark:inline hidden"
               />
@@ -1524,7 +1524,7 @@ get_template('navbar');
         <div class="max-w-[408px] border dark:border-backgroundBody/10 p-5">
           <div class="flex items-center space-x-4 pb-4">
             <img
-              src="images/avatar/review-3.png"
+              src="images/avatar/review-3.webp"
               alt="Wade Warren"
               class="rounded-full w-16 h-16"
             />
@@ -1577,12 +1577,12 @@ get_template('navbar');
           <div class="flex justify-between items-center pt-4">
             <div class="flex items-center space-x-1">
               <img
-                src="images/icons/testimonial-logo.png"
+                src="images/icons/testimonial-logo.webp"
                 alt="Logo"
                 class="inline dark:hidden"
               />
               <img
-                src="images/icons/testimonial-dark-logo.png"
+                src="images/icons/testimonial-dark-logo.webp"
                 alt="Logo"
                 class="dark:inline hidden"
               />
@@ -1596,7 +1596,7 @@ get_template('navbar');
         <div class="max-w-[408px] border dark:border-backgroundBody/10 p-5">
           <div class="flex items-center space-x-4 pb-4">
             <img
-              src="images/avatar/review-4.png"
+              src="images/avatar/review-4.webp"
               alt="Wade Warren"
               class="rounded-full w-16 h-16"
             />
@@ -1649,12 +1649,12 @@ get_template('navbar');
           <div class="flex justify-between items-center pt-4">
             <div class="flex items-center space-x-1">
               <img
-                src="images/icons/testimonial-logo.png"
+                src="images/icons/testimonial-logo.webp"
                 alt="Logo"
                 class="inline dark:hidden"
               />
               <img
-                src="images/icons/testimonial-dark-logo.png"
+                src="images/icons/testimonial-dark-logo.webp"
                 alt="Logo"
                 class="dark:inline hidden"
               />
@@ -1668,7 +1668,7 @@ get_template('navbar');
         <div class="max-w-[408px] border dark:border-backgroundBody/10 p-5">
           <div class="flex items-center space-x-4 pb-4">
             <img
-              src="images/avatar/review-5.png"
+              src="images/avatar/review-5.webp"
               alt="Devon Lane"
               class="rounded-full w-16 h-16"
             />
@@ -1720,12 +1720,12 @@ get_template('navbar');
           <div class="flex justify-between items-center pt-4">
             <div class="flex items-center space-x-1">
               <img
-                src="images/icons/testimonial-logo.png"
+                src="images/icons/testimonial-logo.webp"
                 alt="Logo"
                 class="inline dark:hidden"
               />
               <img
-                src="images/icons/testimonial-dark-logo.png"
+                src="images/icons/testimonial-dark-logo.webp"
                 alt="Logo"
                 class="dark:inline hidden"
               />
@@ -1755,7 +1755,7 @@ get_template('navbar');
         >
           <div class="flex items-center space-x-4 pb-4">
             <img
-              src="images/avatar/review-1.png"
+              src="images/avatar/review-1.webp"
               alt="Wade Warren"
               class="rounded-full w-16 h-16"
             />
@@ -1809,12 +1809,12 @@ get_template('navbar');
           <div class="flex justify-between items-center pt-4">
             <div class="flex items-center space-x-1">
               <img
-                src="images/icons/testimonial-logo.png"
+                src="images/icons/testimonial-logo.webp"
                 alt="Logo"
                 class="inline dark:hidden"
               />
               <img
-                src="images/icons/testimonial-dark-logo.png"
+                src="images/icons/testimonial-dark-logo.webp"
                 alt="Logo"
                 class="dark:inline hidden"
               />
@@ -1828,7 +1828,7 @@ get_template('navbar');
         <div class="max-w-[408px] border dark:border-backgroundBody/10 p-5">
           <div class="flex items-center space-x-4 pb-4">
             <img
-              src="images/avatar/review-2.png"
+              src="images/avatar/review-2.webp"
               alt="Wade Warren"
               class="rounded-full w-16 h-16"
             />
@@ -1881,12 +1881,12 @@ get_template('navbar');
           <div class="flex justify-between items-center pt-4">
             <div class="flex items-center space-x-1">
               <img
-                src="images/icons/testimonial-logo.png"
+                src="images/icons/testimonial-logo.webp"
                 alt="Logo"
                 class="inline dark:hidden"
               />
               <img
-                src="images/icons/testimonial-dark-logo.png"
+                src="images/icons/testimonial-dark-logo.webp"
                 alt="Logo"
                 class="dark:inline hidden"
               />
@@ -1900,7 +1900,7 @@ get_template('navbar');
         <div class="max-w-[408px] border dark:border-backgroundBody/10 p-5">
           <div class="flex items-center space-x-4 pb-4">
             <img
-              src="images/avatar/review-3.png"
+              src="images/avatar/review-3.webp"
               alt="Wade Warren"
               class="rounded-full w-16 h-16"
             />
@@ -1953,12 +1953,12 @@ get_template('navbar');
           <div class="flex justify-between items-center pt-4">
             <div class="flex items-center space-x-1">
               <img
-                src="images/icons/testimonial-logo.png"
+                src="images/icons/testimonial-logo.webp"
                 alt="Logo"
                 class="inline dark:hidden"
               />
               <img
-                src="images/icons/testimonial-dark-logo.png"
+                src="images/icons/testimonial-dark-logo.webp"
                 alt="Logo"
                 class="dark:inline hidden"
               />
@@ -1972,7 +1972,7 @@ get_template('navbar');
         <div class="max-w-[408px] border dark:border-backgroundBody/10 p-5">
           <div class="flex items-center space-x-4 pb-4">
             <img
-              src="images/avatar/review-4.png"
+              src="images/avatar/review-4.webp"
               alt="Wade Warren"
               class="rounded-full w-16 h-16"
             />
@@ -2025,12 +2025,12 @@ get_template('navbar');
           <div class="flex justify-between items-center pt-4">
             <div class="flex items-center space-x-1">
               <img
-                src="images/icons/testimonial-logo.png"
+                src="images/icons/testimonial-logo.webp"
                 alt="Logo"
                 class="inline dark:hidden"
               />
               <img
-                src="images/icons/testimonial-dark-logo.png"
+                src="images/icons/testimonial-dark-logo.webp"
                 alt="Logo"
                 class="dark:inline hidden"
               />
@@ -2044,7 +2044,7 @@ get_template('navbar');
         <div class="max-w-[408px] border dark:border-backgroundBody/10 p-5">
           <div class="flex items-center space-x-4 pb-4">
             <img
-              src="images/avatar/review-5.png"
+              src="images/avatar/review-5.webp"
               alt="Devon Lane"
               class="rounded-full w-16 h-16"
             />
@@ -2096,12 +2096,12 @@ get_template('navbar');
           <div class="flex justify-between items-center pt-4">
             <div class="flex items-center space-x-1">
               <img
-                src="images/icons/testimonial-logo.png"
+                src="images/icons/testimonial-logo.webp"
                 alt="Logo"
                 class="inline dark:hidden"
               />
               <img
-                src="images/icons/testimonial-dark-logo.png"
+                src="images/icons/testimonial-dark-logo.webp"
                 alt="Logo"
                 class="dark:inline hidden"
               />
@@ -2135,13 +2135,13 @@ get_template('navbar');
         >
           <div class="cta-inline-slider">
             <div class="slide">
-              <img src="images/agent/01.jpg" alt="Slide 1" />
+              <img src="images/agent/01.webp" alt="Slide 1" />
             </div>
             <div class="slide">
-              <img src="images/agent/02.jpg" alt="Slide 2" />
+              <img src="images/agent/02.webp" alt="Slide 2" />
             </div>
             <div class="slide">
-              <img src="images/agent/03.jpg" alt="Slide 3" />
+              <img src="images/agent/03.webp" alt="Slide 3" />
             </div>
           </div>
         </div>

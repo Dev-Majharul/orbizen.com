@@ -15,7 +15,7 @@ $article_published_date = "2024-03-10T10:00:00+00:00";
 $article_modified_date = "2024-03-15T14:30:00+00:00";
 $article_author = "John Smith";
 $article_categories = ["Web Development", "Mobile Apps", "User Experience"];
-$article_image = "https://orbizen.com/images/blog/web-mobile-apps.jpg";
+$article_image = "https://orbizen.com/images/blog/web-mobile-apps.webp";
 $article_image_width = "1200";
 $article_image_height = "630";
 $article_word_count = "1250";
@@ -40,7 +40,7 @@ get_template('blog-schema');
     class="absolute w-full h-full top-0 left-0 -z-10 blur-[35px] md:blur-[60px] max-sm:scale-75 sm:scale-75"
   >
     <img
-      src="images/hero-gradient-background.png"
+      src="images/hero-gradient-background.webp"
       alt="hero-gradient-background"
       id="hero-gradient"
       class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-[45%]"
@@ -72,7 +72,7 @@ get_template('blog-schema');
     <!-- Featured Image -->
     <figure class="w-full reveal-me">
       <img
-        src="images/blog-img/blog-details-img-1.png"
+        src="images/blog-img/blog-details-img-1.webp"
         alt="Blog Details"
         class="w-full"
       />
@@ -363,7 +363,7 @@ get_template('blog-schema');
         </div>
         <figure class="reveal-me">
           <img
-            src="images/services/services-details-img.png"
+            src="images/services/services-details-img.webp"
             alt="Services Big Img"
           />
         </figure>
@@ -413,7 +413,7 @@ get_template('blog-schema');
 
         <figure class="reveal-me">
           <img
-            src="images/services/services-details-img.png"
+            src="images/services/services-details-img.webp"
             alt="Services Big Img"
           />
         </figure>
@@ -482,7 +482,7 @@ get_template('blog-schema');
       <div class="max-w-[370px] reveal-me group">
         <figure class="overflow-hidden">
           <img
-            src="images/blog-img/blog-img-1.png"
+            src="images/blog-img/blog-img-1.webp"
             class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
             alt="Blog Images"
           />
@@ -529,7 +529,7 @@ get_template('blog-schema');
       <div class="max-w-[370px] reveal-me group">
         <figure class="overflow-hidden">
           <img
-            src="images/blog-img/blog-img-2.png"
+            src="images/blog-img/blog-img-2.webp"
             alt="Blog Images"
             class="max-h-[389px] h-full w-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
           />
@@ -577,7 +577,7 @@ get_template('blog-schema');
       <div class="max-w-[370px] reveal-me group">
         <figure class="overflow-hidden">
           <img
-            src="images/blog-img/blog-img-3.png"
+            src="images/blog-img/blog-img-3.webp"
             class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
             alt="Blog Images"
           />
@@ -643,13 +643,13 @@ get_template('blog-schema');
       >
         <div class="cta-inline-slider">
           <div class="slide">
-            <img src="images/agent/01.jpg" alt="Slide 1" />
+            <img src="images/agent/01.webp" alt="Slide 1" />
           </div>
           <div class="slide">
-            <img src="images/agent/02.jpg" alt="Slide 2" />
+            <img src="images/agent/02.webp" alt="Slide 2" />
           </div>
           <div class="slide">
-            <img src="images/agent/03.jpg" alt="Slide 3" />
+            <img src="images/agent/03.webp" alt="Slide 3" />
           </div>
         </div>
       </div>

@@ -10,8 +10,8 @@ if (!defined('ABSPATH')) {
     <nav class="z-[1000] w-full fixed px-5 sm:px-8 pt-1 sm:pt-5 nav-top">
       <div class="flex justify-between">
         <a href="<?php echo get_url('index'); ?>">
-          <img class=" w-auto  inline-block dark:hidden"  style="height: 4rem; padding: 1rem;" src="images/logo.png" alt="orbizen">
-          <img class=" w-auto  dark:inline-block hidden"  style="height: 4rem; padding: 1rem;" src="images/logo-white.png" alt="orbizen">
+          <img class=" w-auto  inline-block dark:hidden"  style="height: 4rem; padding: 1rem;" src="images/logo.webp" alt="orbizen">
+          <img class=" w-auto  dark:inline-block hidden"  style="height: 4rem; padding: 1rem;" src="images/logo-white.webp" alt="orbizen">
         </a>
         <div class="flex items-center">
           <div

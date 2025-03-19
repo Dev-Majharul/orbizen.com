@@ -22,7 +22,7 @@ get_template('navbar');
 <section class="pt-36 md:pt-[180px] lg:pt-[240px] relative pb-[850px] overflow-hidden z-10">
   <!-- Hero Image Container -->
   <div class="relative max-w-xs sm:max-w-[400px] md:max-w-[570px] h-[330px] mx-auto">
-    <img src="images/homeV3-hero.png" class="absolute left-0 top-0 w-full h-full object-cover zoom-image" alt="Hero image">
+    <img src="images/homeV3-hero.webp" class="absolute left-0 top-0 w-full h-full object-cover zoom-image" alt="Hero image">
   </div>
 
   <!-- Overlapping Text Elements -->
@@ -91,7 +91,7 @@ get_template('navbar');
       <div class="reveal-me underline-hover-effect group">
         <a href="project-details.php">
           <figure class="overflow-hidden">
-            <img src="images/home-3/services-1.png" class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3" alt="Services Img">
+            <img src="images/home-3/services-1.webp" class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3" alt="Services Img">
           </figure>
           <div class="blog-title mt-[30px] text-center">
             <h3 class="capitalize text-center">Staticmania</h3>
@@ -103,7 +103,7 @@ get_template('navbar');
       <div class="md:mt-20 reveal-me underline-hover-effect group">
         <a href="project-details.php">
           <figure class="overflow-hidden">
-            <img src="images/home-3/services-2.png" class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3" alt="Services Img">
+            <img src="images/home-3/services-2.webp" class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3" alt="Services Img">
           </figure>
           <div class="blog-title mt-[30px] text-center">
             <h3 class="capitalize text-center">creative studio</h3>
@@ -116,7 +116,7 @@ get_template('navbar');
       <div class="reveal-me underline-hover-effect group">
         <a href="project-details.php">
           <figure class="overflow-hidden">
-            <img src="images/home-3/services-3.png" class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3" alt="Services Img">
+            <img src="images/home-3/services-3.webp" class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3" alt="Services Img">
           </figure>
           <div class="blog-title mt-[30px] text-center">
             <h3 class="capitalize text-center">HealthTech</h3>
@@ -128,7 +128,7 @@ get_template('navbar');
       <div class="md:mt-20 reveal-me underline-hover-effect group">
         <a href="project-details.php">
           <figure class="overflow-hidden">
-            <img src="images/home-3/services-4.png" class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3" alt="Services Img">
+            <img src="images/home-3/services-4.webp" class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3" alt="Services Img">
           </figure>
           <div class="blog-title mt-[30px] mb-2 text-center">
             <h3 class="capitalize text-center">BeautyForge</h3>
@@ -159,7 +159,7 @@ get_template('navbar');
 ======================================-->
 <section class="pt-14 md:pt-16 lg:pt-[88px] xl:pt-[100px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] relative overflow-hidden">
   <div class="absolute scale-y-[3.8] sm:scale-y-[3.3] md:scale-y-[3.2] lg:scale-y-[2.4] xl:scale-y-[1.2] scale-x-[2.7] xl:scale-x-[2.4] left-1/2 top-[47%] lg:top-[45%] -translate-y-[45%] -translate-x-1/2">
-    <img src="images/services-gradient-bg-2.png" alt="gradient-bg">
+    <img src="images/services-gradient-bg-2.webp" alt="gradient-bg">
   </div>
   <div class="container">
     <!-- Section Header -->
@@ -405,7 +405,7 @@ get_template('navbar');
       <div class="reveal-me md:max-w-[355px] group">
         <a href="blog-details.php" class="w-full">
           <figure class="overflow-hidden">
-            <img src="images/blog-img/homeV3-img-1.png" alt="AI in Design" class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3">
+            <img src="images/blog-img/homeV3-img-1.webp" alt="AI in Design" class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3">
           </figure>
           <div class="rv-badge mt-7">
             <span class="rv-badge-text">Artificial Intelligence</span>
@@ -434,7 +434,7 @@ get_template('navbar');
       <div class="reveal-me md:max-w-[355px] group">
         <a href="blog-details.php" class="w-full">
           <figure class="overflow-hidden">
-            <img src="images/blog-img/homeV3-img-2.png" alt="Web Development" class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3">
+            <img src="images/blog-img/homeV3-img-2.webp" alt="Web Development" class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3">
           </figure>
           <div class="rv-badge mt-7">
             <span class="rv-badge-text">Web Development</span>
@@ -463,7 +463,7 @@ get_template('navbar');
       <div class="reveal-me md:max-w-[355px] group">
         <a href="blog-details.php" class="w-full">
           <figure class="overflow-hidden">
-            <img src="images/blog-img/homeV3-img-3.png" alt="Digital Experience" class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3">
+            <img src="images/blog-img/homeV3-img-3.webp" alt="Digital Experience" class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3">
           </figure>
           <div class="rv-badge mt-7">
             <span class="rv-badge-text">Digital Experience</span>
@@ -601,7 +601,7 @@ get_template('navbar');
               </h3>
               <div class="flex justify-between items-center">
                 <div class="flex items-center gap-3">
-                  <img src="images/avatar/review-5.png" alt="Avatar Img">
+                  <img src="images/avatar/review-5.webp" alt="Avatar Img">
                   <div>
                     <h4 class="text-lg md:text-2xl md:leading-[1.2] text-backgroundBody">
                       Kathryn Murphy
@@ -643,7 +643,7 @@ get_template('navbar');
               </h3>
               <div class="flex justify-between items-center">
                 <div class="flex items-center gap-3">
-                  <img src="images/avatar/review-2.png" alt="Avatar Img">
+                  <img src="images/avatar/review-2.webp" alt="Avatar Img">
                   <div>
                     <h4 class="text-lg md:text-2xl md:leading-[1.2] text-backgroundBody">
                       John Deo
@@ -685,7 +685,7 @@ get_template('navbar');
               </h3>
               <div class="flex justify-between items-center">
                 <div class="flex items-center gap-3">
-                  <img src="images/avatar/review-8.png" alt="Avatar Img">
+                  <img src="images/avatar/review-8.webp" alt="Avatar Img">
                   <div>
                     <h4 class="text-lg md:text-2xl md:leading-[1.2] text-backgroundBody">
                       Zaks Addison
@@ -862,13 +862,13 @@ get_template('navbar');
       <div class="cta-slider-container max-sm:block sm:inline-block max-sm:mb-5 translate-y-2 sm:translate-y-[20px] max-sm:mt-2.5">
         <div class="cta-inline-slider">
           <div class="slide">
-            <img src="images/agent/01.jpg" alt="Slide 1">
+            <img src="images/agent/01.webp" alt="Slide 1">
           </div>
           <div class="slide">
-            <img src="images/agent/02.jpg" alt="Slide 2">
+            <img src="images/agent/02.webp" alt="Slide 2">
           </div>
           <div class="slide">
-            <img src="images/agent/03.jpg" alt="Slide 3">
+            <img src="images/agent/03.webp" alt="Slide 3">
           </div>
         </div>
       </div>

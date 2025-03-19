@@ -22,7 +22,7 @@ get_template('navbar');
 <section class="pt-28 sm:pb-28 max-md:pb-16 md:py-[155px] lg:py-[177px] relative z-50 overflow-hidden">
   <div id="hero-gradient-wrapper" class="absolute w-full h-full top-0 left-0 -z-10 blur-[35px] md:blur-[60px] scale-75">
     <!-- Gradient Background Image: Positioned centrally with responsive sizing -->
-    <img src="images/hero-gradient-background.png" alt="hero-gradient-background" id="hero-gradient" class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+    <img src="images/hero-gradient-background.webp" alt="hero-gradient-background" id="hero-gradient" class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
   </div>
 
   <!-- Content Container -->
@@ -67,8 +67,8 @@ get_template('navbar');
       <!-- Logo Circle -->
       <div class="relative w-[168px] h-[168px] bg-secondary dark:bg-white rounded-[50%] flex items-center justify-center mx-auto">
         <figure>
-          <img src="images/icons/text-circle-logo.png" alt="text-circle-logo" class="inline dark:hidden">
-          <img src="images/icons/text-circle-dark-logo.png" alt="text-circle-logo" class="hidden dark:inline">
+          <img src="images/icons/text-circle-logo.webp" alt="text-circle-logo" class="inline dark:hidden">
+          <img src="images/icons/text-circle-dark-logo.webp" alt="text-circle-logo" class="hidden dark:inline">
         </figure>
         <div class="text">
           <p>Building Brands,and Creating Impact</p>
@@ -101,7 +101,7 @@ get_template('navbar');
     <!-- Main Profile Card -->
     <div class="our-team-details flex flex-col lg:flex-row gap-10 gap-x-[30px] max-md:justify-center max-md:items-center border dark:border-dark p-5 lg:p-10 bg-backgroundBody dark:bg-dark">
       <figure class="max-lg:w-full lg:max-w-[330px] lg:max-h-[350px]">
-        <img src="images/home-ai/team/ai-team-1.png" alt="Team Leader" class="w-full object-cover">
+        <img src="images/home-ai/team/ai-team-1.webp" alt="Team Leader" class="w-full object-cover">
       </figure>
 
       <!-- Profile Details Container -->
@@ -150,7 +150,7 @@ get_template('navbar');
     <div class="flex max-lg:flex-wrap gap-6 justify-center mt-[30px]">
       <div class="tab-member max-w-[370px] flex-auto border dark:border-dark p-5 flex items-center h-auto gap-5 transitionTimingFunction tab-active" data-member="marvin">
         <figure>
-          <img src="images/home-ai/team/ai-team-1.png" alt="Marvin McKinney" class="w-[130px] h-[130px] object-cover">
+          <img src="images/home-ai/team/ai-team-1.webp" alt="Marvin McKinney" class="w-[130px] h-[130px] object-cover">
         </figure>
         <div>
           <h3 class="text-2xl leading-[1.2] tracking-[-0.72px] mb-3">
@@ -161,7 +161,7 @@ get_template('navbar');
       </div>
       <div class="tab-member border dark:border-dark max-w-[370px] flex-auto p-5 flex items-center h-auto gap-5 transitionTimingFunction" data-member="marvin">
         <figure>
-          <img src="images/home-ai/team/ai-team-2.png" alt="Marvin McKinney" class="w-[130px] h-[130px] object-cover">
+          <img src="images/home-ai/team/ai-team-2.webp" alt="Marvin McKinney" class="w-[130px] h-[130px] object-cover">
         </figure>
         <div>
           <h3 class="text-2xl leading-[1.2] tracking-[-0.72px] mb-3">
@@ -172,7 +172,7 @@ get_template('navbar');
       </div>
       <div class="tab-member max-w-[370px] flex-auto border dark:border-dark p-5 flex items-center h-auto gap-5 transitionTimingFunction" data-member="marvin">
         <figure>
-          <img src="images/home-ai/team/ai-team-3.png" alt="Marvin McKinney" class="w-[130px] h-[130px] object-cover">
+          <img src="images/home-ai/team/ai-team-3.webp" alt="Marvin McKinney" class="w-[130px] h-[130px] object-cover">
         </figure>
         <div>
           <h3 class="text-2xl leading-[1.2] tracking-[-0.72px] mb-3">
@@ -191,7 +191,7 @@ get_template('navbar');
 ======================================-->
 <section class="relative max-md:pt-0.5 pt-14 md:pt-16 lg:pt-[88px] xl:pt-[100px] mb-14 md:mb-16 lg:mb-[88px] xl:mb-[100px] overflow-hidden">
   <div class="absolute scale-y-75 lg:scale-y-[0.5] xl:scale-y-[0.5] 2xl:scale-y-[0.22] scale-x-[2.5] left-1/2 top-1/2 -translate-y-1/2 lg:-translate-y-[45%] xl:-translate-y-[50%] 2xl:-translate-y-[46%] -translate-x-1/2 -z-30">
-    <img src="images/gradient-bg.png" alt="gradient-bg">
+    <img src="images/gradient-bg.webp" alt="gradient-bg">
   </div>
   <!-- Gradient Background Container -->
   <div class="py-5 sm:py-10 reveal-me">
@@ -354,13 +354,13 @@ get_template('navbar');
       <div class="cta-slider-container max-sm:block sm:inline-block max-sm:mb-5 translate-y-2 sm:translate-y-[20px] max-sm:mt-2.5">
         <div class="cta-inline-slider">
           <div class="slide">
-            <img src="images/agent/01.jpg" alt="Slide 1">
+            <img src="images/agent/01.webp" alt="Slide 1">
           </div>
           <div class="slide">
-            <img src="images/agent/02.jpg" alt="Slide 2">
+            <img src="images/agent/02.webp" alt="Slide 2">
           </div>
           <div class="slide">
-            <img src="images/agent/03.jpg" alt="Slide 3">
+            <img src="images/agent/03.webp" alt="Slide 3">
           </div>
         </div>
       </div>

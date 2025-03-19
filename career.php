@@ -28,7 +28,7 @@ get_template('navbar');
     class="absolute w-full h-full top-0 left-0 -z-10 blur-[60px]"
   >
     <img
-      src="images/hero-gradient-background.png"
+      src="images/hero-gradient-background.webp"
       alt="hero-gradient-background"
       id="hero-gradient"
       class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
@@ -74,7 +74,7 @@ get_template('navbar');
       <!-- Team Meeting Image -->
       <figure class="w-full md:order-4 lg:order-first">
         <img
-          src="images/career-img/career-img-1.png"
+          src="images/career-img/career-img-1.webp"
           alt="Team collaborating in modern office space"
           class="w-full lg:w-full lg:object-cover"
         />
@@ -83,7 +83,7 @@ get_template('navbar');
       <!-- Design Workshop Image -->
       <figure class="w-full place-self-start">
         <img
-          src="images/career-img/career-img-2.png"
+          src="images/career-img/career-img-2.webp"
           alt="Creative workshop session with design team"
           class="w-full lg:w-1/3 lg:absolute lg:top-[57px] z-10"
         />
@@ -92,7 +92,7 @@ get_template('navbar');
       <!-- Office Space Image -->
       <figure class="w-full lg:place-self-end">
         <img
-          src="images/career-img/career-img-3.png"
+          src="images/career-img/career-img-3.webp"
           alt="Modern collaborative workspace environment"
           class="w-full lg:absolute lg:bottom-10 lg:w-fit -z-0"
         />
@@ -101,7 +101,7 @@ get_template('navbar');
       <!-- Team Culture Image -->
       <figure class="w-full">
         <img
-          src="images/career-img/career-img-4.png"
+          src="images/career-img/career-img-4.webp"
           alt="Team building and social activities"
           class="w-full"
         />
@@ -171,7 +171,7 @@ get_template('navbar');
   <div
     class="absolute scale-y-[4] md:scale-y-[4] lg:scale-y-[2.2] xl:scale-y-[2.5] 2xl:scale-y-[1.4] scale-x-[2.7] left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 -z-30"
   >
-    <img src="images/gradient-bg.png" alt="gradient-bg" />
+    <img src="images/gradient-bg.webp" alt="gradient-bg" />
   </div>
   <!-- Section Header -->
   <div class="container">
@@ -373,13 +373,13 @@ get_template('navbar');
       >
         <div class="cta-inline-slider">
           <div class="slide">
-            <img src="images/agent/01.jpg" alt="Slide 1" />
+            <img src="images/agent/01.webp" alt="Slide 1" />
           </div>
           <div class="slide">
-            <img src="images/agent/02.jpg" alt="Slide 2" />
+            <img src="images/agent/02.webp" alt="Slide 2" />
           </div>
           <div class="slide">
-            <img src="images/agent/03.jpg" alt="Slide 3" />
+            <img src="images/agent/03.webp" alt="Slide 3" />
           </div>
         </div>
       </div>

@@ -67,7 +67,7 @@ get_template('header');
   <div class="container">
     <!-- Gradient Background Wrapper -->
     <div id="hero-gradient-wrapper" class="absolute w-[80%] lg:w-full h-[80%] lg:h-full top-[35%] left-1/2 -translate-y-[35%] -translate-x-1/2 -z-10 blur-[60px]">
-      <img src="images/hero-gradient-background.png" alt="hero-gradient-background" id="hero-gradient" class="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-0">
+      <img src="images/hero-gradient-background.webp" alt="hero-gradient-background" id="hero-gradient" class="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-0">
     </div>
 
     <!-- Main Content -->

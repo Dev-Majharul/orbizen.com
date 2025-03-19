@@ -21,7 +21,7 @@ get_template('navbar');
 <section class="pt-32 sm:pt-36 md:pt-44 lg:pt-44 xl:pt-[210px] pb-20 md:pb-32 lg:pb-[180px] relative overflow-hidden">
   <!-- Gradient Background -->
   <div id="hero-gradient-wrapper" class="absolute w-full h-full top-[50%] left-[30%] -translate-y-1/2 -translate-x-[30%] -z-10 blur-[60px]">
-    <img src="images/hero-gradient-background.png" alt="hero-gradient-background" id="hero-gradient" class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+    <img src="images/hero-gradient-background.webp" alt="hero-gradient-background" id="hero-gradient" class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
   </div>
 
   <!-- Header Content -->
@@ -333,7 +333,7 @@ get_template('navbar');
           </a>
         </div>
         <figure class="max-md:w-full">
-          <img src="images/community-image.jpg" alt="Community Discussion" class="max-md:w-full">
+          <img src="images/community-image.webp" alt="Community Discussion" class="max-md:w-full">
         </figure>
       </div>
 
@@ -384,7 +384,7 @@ get_template('navbar');
 ======================================-->
 <section class="pt-14 md:pt-16 lg:pt-[88px] xl:pt-[100px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] relative overflow-hidden">
   <div class="absolute scale-y-[3.4] sm:scale-y-[1.6] md:scale-y-[1.5] lg:scale-y-[1.5] xl:scale-y-[1.4] 2xl:scale-y-[1] scale-x-[2.8] md:scale-x-[1.9] lg:scale-x-[1.7] left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 -z-30">
-    <img src="images/gradient-bg.png" alt="gradient-bg">
+    <img src="images/gradient-bg.webp" alt="gradient-bg">
   </div>
   <div class="container">
     <!-- FAQ Section Title -->
@@ -485,13 +485,13 @@ get_template('navbar');
       <div class="cta-slider-container max-sm:block sm:inline-block max-sm:mb-5 translate-y-2 sm:translate-y-[20px] max-sm:mt-2.5">
         <div class="cta-inline-slider">
           <div class="slide">
-            <img src="images/agent/01.jpg" alt="Slide 1">
+            <img src="images/agent/01.webp" alt="Slide 1">
           </div>
           <div class="slide">
-            <img src="images/agent/02.jpg" alt="Slide 2">
+            <img src="images/agent/02.webp" alt="Slide 2">
           </div>
           <div class="slide">
-            <img src="images/agent/03.jpg" alt="Slide 3">
+            <img src="images/agent/03.webp" alt="Slide 3">
           </div>
         </div>
       </div>

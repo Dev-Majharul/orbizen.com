@@ -29,7 +29,7 @@ get_template('navbar');
         <div
           class="flex items-center gap-5 mt-10 pb-10 lg:pb-16 xl:pb-24 reveal-me"
         >
-          <img src="images/avatar/hero-user.png" alt="" />
+          <img src="images/avatar/hero-user.webp" alt="" />
           <figcaption class="">
             <span class="text-xs text-colorText italic"
               >Step into my digital universe</span
@@ -39,21 +39,21 @@ get_template('navbar');
         </div>
         <figure class="mb-8 reveal-me">
           <img
-            src="images/hero-img/hero-img-01.png"
+            src="images/hero-img/hero-img-01.webp"
             alt="Hero Img 01"
             class="w-full"
           />
         </figure>
         <figure class="reveal-me">
-          <img src="images/hero-img/hero-img-02.png" alt="" class="w-full" />
+          <img src="images/hero-img/hero-img-02.webp" alt="" class="w-full" />
         </figure>
       </div>
       <div class="max-lg:self-center">
         <figure class="mb-8 reveal-me">
-          <img src="images/hero-img/hero-img-03.png" alt="" />
+          <img src="images/hero-img/hero-img-03.webp" alt="" />
         </figure>
         <figure class="reveal-me">
-          <img src="images/hero-img/hero-img-04.png" alt="" />
+          <img src="images/hero-img/hero-img-04.webp" alt="" />
         </figure>
       </div>
     </div>
@@ -111,7 +111,7 @@ get_template('navbar');
       <article class="group relative reveal-me underline-hover-effect">
         <a href="project-details-02.php" class="block overflow-hidden">
           <img
-            src="images/portfolio/project-img-01.png"
+            src="images/portfolio/project-img-01.webp"
             alt="Project img"
             class="group-hover:scale-125 group-hover:rotate-3 transition-all duration-500"
           />
@@ -157,7 +157,7 @@ get_template('navbar');
       <article class="group relative reveal-me underline-hover-effect">
         <a href="project-details.php" class="block overflow-hidden">
           <img
-            src="images/portfolio/project-img-02.png"
+            src="images/portfolio/project-img-02.webp"
             class="group-hover:scale-125 group-hover:rotate-3 transition-all duration-500"
             alt="Project img"
           />
@@ -203,7 +203,7 @@ get_template('navbar');
       <article class="group relative reveal-me underline-hover-effect">
         <a href="project-details-02.php" class="block overflow-hidden">
           <img
-            src="images/portfolio/project-img-03.png"
+            src="images/portfolio/project-img-03.webp"
             class="group-hover:scale-125 group-hover:rotate-3 transition-all duration-500"
             alt="Project img"
           />
@@ -249,7 +249,7 @@ get_template('navbar');
       <article class="group relative reveal-me underline-hover-effect">
         <a href="project-details.php" class="block overflow-hidden">
           <img
-            src="images/portfolio/project-img-04.png"
+            src="images/portfolio/project-img-04.webp"
             class="group-hover:scale-125 group-hover:rotate-3 transition-all duration-500"
             alt="Project img"
           />
