@@ -1,0 +1,49 @@
+User-agent: *
+Allow: /
+Allow: /index.php
+Allow: /about.php
+Allow: /about-02.php
+Allow: /services.php
+Allow: /services-details.php
+Allow: /pricing.php
+Allow: /contact.php
+Allow: /project.php
+Allow: /project-02.php
+Allow: /project-03.php
+Allow: /project-details.php
+Allow: /project-details-02.php
+Allow: /blog.php
+Allow: /blog-02.php
+Allow: /blog-details.php
+Allow: /team.php
+Allow: /team-details.php
+Allow: /career.php
+Allow: /career-02.php
+Allow: /career-details.php
+Allow: /faq.php
+Allow: /terms.php
+Allow: /privacy-policy.php
+Allow: /homepage-02.php
+Allow: /homepage-03.php
+Allow: /homepage-04.php
+Allow: /homepage-05.php
+Allow: /homepage-06.php
+Allow: /homepage-07.php
+Allow: /homepage-08.php
+Allow: /homepage-09.php
+Allow: /homepage-10.php
+Allow: /404.php
+Allow: /sitemap.xml
+
+# Disallow sensitive areas
+Disallow: /password-protected.php
+Disallow: /update-links.php
+Disallow: /core/
+Disallow: /.git/
+Disallow: /s/
+
+# Handle error pages
+Disallow: /404.php
+
+# Sitemap location
+Sitemap: https://orbizen.com/sitemap.xml 
