@@ -176,27 +176,28 @@ $description = $PAGE_DESCRIPTION;
   </script>
 
   <!-- Stylesheets -->
-  <link href="css/main.css" rel="stylesheet">
   <link href="css/lazyload.css" rel="stylesheet">
-
+  
   <!-- Web App Manifest -->
   <link rel="manifest" href="images/site.webmanifest">
-
+  
   <!-- Favicons -->
   <link rel="icon" type="image/png" href="images/favicon-96x96.webp" sizes="96x96">
   <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
   <link rel="shortcut icon" href="images/favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.webp">
-
+  
   <!-- DNS Prefetch -->
   <link rel="dns-prefetch" href="//fonts.googleapis.com">
   <link rel="dns-prefetch" href="//analytics.google.com">
-
+  
   <!-- Preconnect -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
+  
   <!-- Lazy Loading Script -->
+  <link rel="stylesheet" href="../css2.css">
   <script src="js/lazyload.js" defer></script>
+  <link href="css/main.css" rel="stylesheet">
 </head>
 
 <body>
